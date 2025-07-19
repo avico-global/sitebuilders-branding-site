@@ -14,17 +14,17 @@ const ScrollNavbar = () => {
                     image: "/st-images/step1.svg"
                 },
                 {
-                    title: "Publish and edit",
+                    title: "Build fast with templates",
                     href: "publish-edit",
                     image: "/st-images/step2.svg"
                 },
                 {
-                    title: "Analyze and optimize",
+                    title: "Edit and Optimize",
                     href: "analyze-optimize",
                     image: "/st-images/step3.svg"
                 },
                 {
-                    title: "Scale and collaborate",
+                    title: "Boost Visibility. Dominate Google",
                     href: "scale-collaborate",
                     image: "/st-images/step4.svg"
                 },

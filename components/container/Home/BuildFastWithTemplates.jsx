@@ -6,7 +6,7 @@ import Heading1 from '../../ui/Heading1'
 import Button from '../../ui/Button'
 import { ArrowRightIcon } from 'lucide-react'
 
-const PublishEdit = ({ id }) => {
+const BuildFastWithTemplates = ({ id }) => {
   const data = [
     {
         title: "Manage content visually, publish anywhere",
@@ -53,7 +53,7 @@ const PublishEdit = ({ id }) => {
   )
 }
 
-export default PublishEdit
+export default BuildFastWithTemplates
 
 const PublishEditSection = () => {
   return (

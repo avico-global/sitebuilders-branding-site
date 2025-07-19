@@ -4,7 +4,7 @@ import Container from '../../common/Container'
 import ProcessSection from '../../ui/VIdeoChanger'
 import VideoSlider from '../../ui/VideoSlider'
 
-const DesignBuild = ({ id }) => {
+const LaunchFromRepo = ({ id }) => {
     const data = [
         {
             title: "Launch pixel-perfect sites",
@@ -53,4 +53,4 @@ const DesignBuild = ({ id }) => {
     )
 }
 
-export default DesignBuild
+export default LaunchFromRepo

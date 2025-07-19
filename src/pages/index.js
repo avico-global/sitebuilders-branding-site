@@ -2,13 +2,13 @@ import Image from "next/image";
 import Layout from "../../components/common/Layout";
 import Hero from "../../components/container/Home/Hero";
 import OurProcess from "../../components/container/Home/OurProcess";
-import DesignBuild from "../../components/container/Home/DesignBuild";
+import LaunchFromRepo from "../../components/container/Home/LaunchFromRepo";
 import ScrollNavbar from "../../components/container/Navbar/ScrollNavbar";
-import PublishEdit from "../../components/container/Home/PublishEdit";
-import AnalyzeOptimize from "../../components/container/Home/AnalyzeOptimize";
-import ScaleCollaborate from "../../components/container/Home/ScaleCollaborate";
+import BuildFastWithTemplates from "../../components/container/Home/BuildFastWithTemplates";
+import EditAndOptimize from "../../components/container/Home/EditAndOptimize";
 import CTA from "../../components/container/CTA";
 import ImageSlider from "../../components/ui/ImageSlider";
+import BoostVisibilityDominateGoogle from "../../components/container/Home/BoostVisibilityDominateGoogle";
 
 export default function Home() {
   return (
@@ -16,10 +16,10 @@ export default function Home() {
       <Hero />
       <OurProcess />
       <ScrollNavbar />
-      <DesignBuild id="design-build" />
-      <PublishEdit id="publish-edit" />
-      <AnalyzeOptimize id="analyze-optimize" />
-      <ScaleCollaborate id="scale-collaborate" />
+      <LaunchFromRepo id="design-build" />
+      <BuildFastWithTemplates id="publish-edit" />
+      <EditAndOptimize id="analyze-optimize" />
+      <BoostVisibilityDominateGoogle id="scale-collaborate" />
       <CTA />
       <ImageSlider />
     </Layout>

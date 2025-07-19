@@ -4,7 +4,7 @@ import Container from '../../common/Container'
 import Heading1 from '../../ui/Heading1'
 import Heading2 from '../../ui/Heading2'
 
-const ScaleCollaborate = ({ id }) => {
+const BoostVisibilityDominateGoogle = ({ id }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const desktopItemRefs = useRef([]);
     
@@ -117,4 +117,4 @@ const ScaleCollaborate = ({ id }) => {
     )
 }
 
-export default ScaleCollaborate
+export default BoostVisibilityDominateGoogle

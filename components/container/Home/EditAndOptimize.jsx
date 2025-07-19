@@ -1,7 +1,7 @@
 import React from 'react'
 import ProcessSection from '../../ui/VIdeoChanger'
 
-const AnalyzeOptimize = ({ id }) => {
+const EditAndOptimize = ({ id }) => {
     const data = [
         {
             title: "Drive real business results, fast",
@@ -43,4 +43,4 @@ const AnalyzeOptimize = ({ id }) => {
   )
 }
 
-export default AnalyzeOptimize 
+export default EditAndOptimize 
