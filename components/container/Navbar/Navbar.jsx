@@ -26,43 +26,43 @@ const Navbar = () => {
 
 
     const platformData = [
-        {
-            title: 'BUILD',
-            links: [
-                {
-                    icon: <MousePointer2 />,
-                    title: 'Design',
-                    link: '/platform/design',
-                    description: 'Build high-performing sites',
-                },
-                {
-                    icon: <Pencil />,
-                    title: 'Edit mode',
-                    link: '/platform/edit-mode',
-                    description: 'Empower your content team',
-                },
-                {
-                    icon: <Zap />,
-                    title: 'Interactions',
-                    link: '/platform/interactions',
-                    description: 'Craft immersive experiences',
-                },
-                {
-                    icon: <SquareSplitHorizontal />,
-                    title: 'Page building',
-                    link: '/platform/page-building',
-                    description: 'Launch simple landing pages quickly and easily',
-                    isNew: true,
-                },
-                {
-                    icon: <BookOpen />,
-                    title: 'Shared Libraries',
-                    link: '/platform/shared-libraries',
-                    description: 'Unify your design system across multiple sites',
-                    isNew: true,
-                },
-            ],
-        },
+        // {
+        //     title: 'BUILD',
+        //     links: [
+        //         {
+        //             icon: <MousePointer2 />,
+        //             title: 'Design',
+        //             link: '/platform/design',
+        //             description: 'Build high-performing sites',
+        //         },
+        //         {
+        //             icon: <Pencil />,
+        //             title: 'Edit mode',
+        //             link: '/platform/edit-mode',
+        //             description: 'Empower your content team',
+        //         },
+        //         {
+        //             icon: <Zap />,
+        //             title: 'Interactions',
+        //             link: '/platform/interactions',
+        //             description: 'Craft immersive experiences',
+        //         },
+        //         {
+        //             icon: <SquareSplitHorizontal />,
+        //             title: 'Page building',
+        //             link: '/platform/page-building',
+        //             description: 'Launch simple landing pages quickly and easily',
+        //             isNew: true,
+        //         },
+        //         {
+        //             icon: <BookOpen />,
+        //             title: 'Shared Libraries',
+        //             link: '/platform/shared-libraries',
+        //             description: 'Unify your design system across multiple sites',
+        //             isNew: true,
+        //         },
+        //     ],
+        // },
         {
             title: 'MANAGE',
             links: [
@@ -84,12 +84,12 @@ const Navbar = () => {
                     link: '/localization',
                     description: 'Customize your site for a worldwide audience',
                 },
-                {
-                    icon: <Shield />,
-                    title: 'Security',
-                    link: '/security',
-                    description: 'Ensure your site stays safe',
-                },
+                // {
+                //     icon: <Shield />,
+                //     title: 'Security',
+                //     link: '/security',
+                //     description: 'Ensure your site stays safe',
+                // },
             ],
         },
         {
@@ -117,23 +117,23 @@ const Navbar = () => {
                 },
             ],
         },
-        {
-            title: 'EXTEND',
-            links: [
-                {
-                    icon: <LayoutGrid />,
-                    title: 'Apps',
-                    link: '/platform/apps',
-                    description: 'Connect your site to apps like HubSpot, Adobe Express, and more',
-                },
-                {
-                    icon: <Figma />,
-                    title: 'Figma to Sitebuilderz',
-                    link: '/platform/figma-to-Sitebuilderz',
-                    description: 'Turn static designs into clean, production-ready code',
-                },
-            ],
-        },
+        // {
+        //     title: 'EXTEND',
+        //     links: [
+        //         {
+        //             icon: <LayoutGrid />,
+        //             title: 'Apps',
+        //             link: '/platform/apps',
+        //             description: 'Connect your site to apps like HubSpot, Adobe Express, and more',
+        //         },
+        //         {
+        //             icon: <Figma />,
+        //             title: 'Figma to Sitebuilderz',
+        //             link: '/platform/figma-to-Sitebuilderz',
+        //             description: 'Turn static designs into clean, production-ready code',
+        //         },
+        //     ],
+        // },
     ];
 
     const resourcesData = [
@@ -369,8 +369,8 @@ const Navbar = () => {
                                 Platform
                                 <ChevronDownIcon className='w-4 h-4' />
                             </div>
-                            <div ref={platformDropdownRef} className={`absolute max-w-7xl w-[90%] px-2.5 sm:px-0 mx-auto h-full z-50 top-[70px] left-1/2 -translate-x-1/2 rounded-sm transition-all duration-500 ease-out transform origin-top ${isPlatformOpen ? 'opacity-100 scale-100 max-h-max' : 'opacity-0 scale-0 max-h-0 overflow-hidden'}`} onClick={(e) => e.stopPropagation()}>
-                                <div className='grid grid-cols-4 gap-8 bg-white rounded-sm p-4'>
+                            <div ref={platformDropdownRef} className={`absolute max-w-7xl w-[40%] px-2.5 sm:px-0 mx-auto h-full z-50 top-[70px] left-1/2 -translate-x-1/2 rounded-sm transition-all duration-500 ease-out transform origin-top ${isPlatformOpen ? 'opacity-100 scale-100 max-h-max' : 'opacity-0 scale-0 max-h-0 overflow-hidden'}`} onClick={(e) => e.stopPropagation()}>
+                                <div className='grid grid-cols-2 gap-8 bg-white rounded-sm p-4'>
                                     {platformData.map((item, index) => (
                                         <div
                                             key={index}
@@ -395,14 +395,6 @@ const Navbar = () => {
                                             </div>
                                         </div>
                                     ))}
-                                    <div className='col-span-4 grid grid-cols-2 gap-4 w-full'>
-                                        <div className='bg-gray-100 rounded-sm max-h-[100px]'>
-                                            <Image src="/st-images/publisheditbg.avif" alt="sitebuilderz" width={1000} height={1000} className='object-cover h-full w-full  ' />
-                                        </div>
-                                        <div className='bg-gray-100 rounded-sm max-h-[100px]'>
-                                            <Image src="/st-images/publisheditbg.avif" alt="sitebuilderz" width={1000} height={1000} className='object-cover h-full w-full' />
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div className='flex flex-row gap-1 items-center cursor-pointer relative group' onClick={() => { setIsSolutionsOpen(!isSolutionsOpen); setIsPlatformOpen(false); setIsResourcesOpen(false) }}>
@@ -410,12 +402,12 @@ const Navbar = () => {
                                 Solutions
                                 <ChevronDownIcon className='w-4 h-4' />
                             </div>
-                            <div ref={solutionsDropdownRef} className={`absolute z-50 top-[70px] flex justify-center left-1/2 -translate-x-1/2 rounded-sm transition-all duration-500 ease-out transform origin-top ${isSolutionsOpen ? 'opacity-100 scale-100 max-h-max' : 'opacity-0 scale-0 max-h-0 overflow-hidden'}`} onClick={(e) => e.stopPropagation()}>
-                                <div className='grid grid-cols-5 gap-8 bg-white rounded-sm p-4 max-w-3xl'>
+                            <div ref={solutionsDropdownRef} className={`absolute max-w-7xl w-[40%] px-2.5 sm:px-0 mx-auto h-full z-50 top-[70px] left-1/2 -translate-x-1/2 rounded-sm transition-all duration-500 ease-out transform origin-top  ${isSolutionsOpen ? 'opacity-100 scale-100 max-h-max' : 'opacity-0 scale-0 max-h-0 overflow-hidden'}`} onClick={(e) => e.stopPropagation()}>
+                                <div className='grid grid-cols-4 gap-8 bg-white rounded-sm p-4'>
                                     {solutionsData.map((item, index) => (
                                         <div
                                             key={index}
-                                            className={`flex flex-col gap-2 border-r bg-white border-gray-200 ${index === 0 ? 'col-span-2' : ''} ${index === solutionsData.length - 1 ? 'border-r-0' : ''} rounded-sm p-2 max-w-xs`}
+                                            className={`flex flex-col gap-2 border-r  bg-white border-gray-200 ${index === 0 ? 'col-span-2' : ''} ${index === solutionsData.length - 1 ? 'border-r-0' : ''} rounded-sm p-2 max-w-xs`}
                                         >
                                             <h3 className='text-xs uppercase text-gray-500 pb-5 tracking-wider'>{item.title}</h3>
                                             <div className='flex flex-col gap-4'>
