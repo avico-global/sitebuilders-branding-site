@@ -10,7 +10,7 @@ const PublishEdit = ({ id }) => {
   const data = [
     {
         title: "Manage content visually, publish anywhere",
-        desc: "Webflow's visual-first, composable CMS is made for everyone who has a hand in crafting digital experiences — so you can ship high-impact content, faster.",
+        desc: "Sitebuilderz's visual-first, composable CMS is made for everyone who has a hand in crafting digital experiences — so you can ship high-impact content, faster.",
         buttonText: "Get started — it's free",
         buttonLink: "#",
         videoSrc: "/videos/design-build.mp4",
@@ -30,7 +30,7 @@ const PublishEdit = ({ id }) => {
   const animationData = [
     {
     title: "PSeamlessly write, edit, and publish",
-      desc: "Write, edit, and update content - or generate it with the help of Al- directly in Webflow, then publish with a click.",
+      desc: "Write, edit, and update content - or generate it with the help of Al- directly in Sitebuilderz, then publish with a click.",
     },
     {
       title: "Design with dynamic content",
@@ -38,7 +38,7 @@ const PublishEdit = ({ id }) => {
     },
     {
       title: "Programmatically deliver content at scale",
-      desc: "Programmatically serve content in and out of Webflow or connect with best-of-breed tools through Webflow's powerful CMS APIs.",
+      desc: "Programmatically serve content in and out of Sitebuilderz or connect with best-of-breed tools through Sitebuilderz's powerful CMS APIs.",
     },  
     {
       title: "Create fully localized experiences",
@@ -82,13 +82,13 @@ const PublishEditSection = () => {
         </div>
       </div>
       {/* Headline and description */}
-      <Heading1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 sm:mb-6 lg:mb-8 z-10">AI at Webflow</Heading1>
+      <Heading1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 sm:mb-6 lg:mb-8 z-10">AI at Sitebuilderz</Heading1>
       <p className="text-sm sm:text-base lg:text-lg text-center max-w-xs sm:max-w-md md:max-w-2xl lg:max-w-3xl mb-4 sm:mb-6 lg:mb-8 z-10 px-4">
-        Elevate your site with AI embedded across the Webflow platform and extend its power with deep integrations with a growing ecosystem of AI-powered apps.
+        Elevate your site with AI embedded across the Sitebuilderz platform and extend its power with deep integrations with a growing ecosystem of AI-powered apps.
       </p>
       {/* Call to action */}
       <Button href="#" className="px-4 items-center sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 !bg-black !text-white font-semibold rounded-full shadow-lg hover:bg-gray-200 transition z-10 text-sm sm:text-base">
-        Discover AI at Webflow 
+        Discover AI at Sitebuilderz 
       <ArrowRightIcon className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2 z-10"/>
       </Button>
     </FullContainer>

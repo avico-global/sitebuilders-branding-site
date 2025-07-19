@@ -16,12 +16,12 @@ const ScaleCollaborate = ({ id }) => {
         },
         {
             title: "Secure hosting by design",
-            desc: "Scale securely with reliable, fast hosting, managed for you — plus launch with peace of mind thanks to Webflow's robust security and compliance features, so you can grow with uninterrupted momentum.",
+            desc: "Scale securely with reliable, fast hosting, managed for you — plus launch with peace of mind thanks to Sitebuilderz's robust security and compliance features, so you can grow with uninterrupted momentum.",
             video: "/videos/scale-collaboration2.mp4"
         },
         {
             title: "APIs and integrations",
-            desc: "TConnect your site to the tools your team uses every day with native integrations and APIs — plus find and launch apps in Webflow.",
+            desc: "TConnect your site to the tools your team uses every day with native integrations and APIs — plus find and launch apps in Sitebuilderz.",
             video: "/videos/scale-collaboration3.mp4"
         },
     ]

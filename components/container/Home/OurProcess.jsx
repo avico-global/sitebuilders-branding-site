@@ -37,7 +37,7 @@ const processSteps = [
     },
     {
         title: 'Publish and edit',
-        description: "Choose how you want to add, edit, and update content at scale with Webflow's CMS: visually in our platform or programmatically through our headless APIs.",
+        description: "Choose how you want to add, edit, and update content at scale with Sitebuilderz's CMS: visually in our platform or programmatically through our headless APIs.",
         icon: '/st-images/step2.svg',
     },
     {
@@ -47,7 +47,7 @@ const processSteps = [
     },
     {
         title: 'Scale and collaborate',
-        description: '15,000 websites are published with Webflow every hour. Confidently scale your site with tools for hosting, security, compliance, and publishing — plus connect to your tech stack with integrations and APIs.',
+        description: '15,000 websites are published with Sitebuilderz every hour. Confidently scale your site with tools for hosting, security, compliance, and publishing — plus connect to your tech stack with integrations and APIs.',
         icon: '/st-images/step4.svg',
     },
 ];
@@ -55,7 +55,7 @@ const processSteps = [
 
 const OurProcess = () => {
     // By default, video should play, so initial state is 'pause' (button shows pause, click to pause)
-    const [VideoStats, setVideoStats] = useState('play');
+    const [VideoStats, setVideoStats] = useState('pause');
     const videoRef = useRef(null);
 
     useEffect(() => {
@@ -67,20 +67,6 @@ const OurProcess = () => {
             }
         }
     }, [VideoStats]);
-
-    // Sync state if user uses native controls (optional, for robustness)
-    useEffect(() => {
-        const video = videoRef.current;
-        if (!video) return;
-        const handlePlay = () => setVideoStats('pause');
-        const handlePause = () => setVideoStats('play');
-        video.addEventListener('play', handlePlay);
-        video.addEventListener('pause', handlePause);
-        return () => {
-            video.removeEventListener('play', handlePlay);
-            video.removeEventListener('pause', handlePause);
-        };
-    }, []);
 
     const handleVideoStats = () => {
         setVideoStats(VideoStats === 'play' ? 'pause' : 'play');
@@ -103,15 +89,13 @@ const OurProcess = () => {
                 </div> */}
                 <div className='w-full relative pt-7 aspect-video'>
                     <video
-                        src="/videos/Video-sitebuilderz/Add-templates.mp4"
+                        src="/videos/Video-sitebuilderz/Project.mp4"
                         ref={videoRef}
-                        autoPlay
                         muted
                         loop
-                        className='w-full h-full object-cover rounded-lg'
+                        className='w-full h-full object-contain rounded-lg'
                     />
-                    <div className='absolute bottom-0 left-0 w-full h-[75%] bg-gradient-to-b from-transparent to-white rounded-lg'></div>
-                    <div className='absolute bottom-0 left-0 w-full h-[75%] bg-gradient-to-b from-transparent to-white rounded-lg'></div>
+                    {/* <div className='absolute bottom-0 left-0 w-full h-[75%] bg-gradient-to-b from-transparent to-white rounded-lg'></div> */}
                     <div className="absolute top-[40%] left-[-5.5%] w-[15%] overflow-visible z-10">
                         <Image
                             src="/st-images/side1.avif"
@@ -130,8 +114,8 @@ const OurProcess = () => {
                             className='w-full shadow-[0_20px_20px_rgba(0,0,0,0.3)] sm:shadow-[0_30px_30px_rgba(0,0,0,0.4)] md:shadow-[0_40px_40px_rgba(0,0,0,0.5)] rounded-sm'
                         />
                     </div>
-                    <div className='absolute bottom-4 sm:bottom-6 md:bottom-8 right-4 sm:right-6 md:right-8 p-2 rounded-sm bg-black text-white overflow-visible border'>
-                        <div onClick={handleVideoStats} className='cursor-pointer'>
+                    <div onClick={handleVideoStats} className='absolute cursor-pointer bottom-4 sm:bottom-6 md:bottom-8 right-4 sm:right-6 md:right-8 p-2 rounded-sm bg-black text-white overflow-visible border'>
+                        <div className='cursor-pointer'>
                             {VideoStats === 'play' ?
                                 <PlayIcon size={16} className='w-2 h-2 md:w-4 md:h-4' />
                                 :

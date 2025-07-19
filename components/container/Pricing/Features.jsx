@@ -8,7 +8,7 @@ const Features = ({ type }) => {
     const generalHeaders = ['Features', 'Starter', 'Basic', 'CMS', 'Business', 'Enterprise']
     const generalFeatures = [
         {
-            name: 'Webflow.io domain',
+            name: 'Sitebuilderz.io domain',
             starter: 'yes',
             basic: 'no',
             cms: 'no',

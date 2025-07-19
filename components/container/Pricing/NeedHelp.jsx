@@ -18,7 +18,7 @@ export default function NeedHelp() {
                             <Image src="/st-images/download1.svg" alt="Site plans vs. Workspace plans" width={48} height={48} className='text-primary'/>
                         </div>
                         <div className="text-2xl font-bold text-black mb-1 group-hover:text-primary transition-colors duration-300">Site plans vs. Workspace plans</div>
-                        <div className="text-gray-500 text-base mb-4">Check out this article explaining the different types of Webflow plans.</div>
+                        <div className="text-gray-500 text-base mb-4">Check out this article explaining the different types of Sitebuilderz plans.</div>
                         <a href="#" className="mt-auto flex items-center font-semibold text-black  transition-colors group w-fit">
                             Read more <ArrowUpRight className="ml-2 w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-200" />
                         </a>

@@ -20,7 +20,7 @@ const Testimonial = () => {
             author: "Christopher Law",
             title: "Director of Customer Experience, Spin Master",
             authorImage: "https://images.unsplash.com/photo-1511367461989-f85a21fda167?auto=format&fit=facearea&w=400&h=400&facepad=2", // Unsplash portrait
-            quote: "With Webflow, we can integrate third party tools through robust APIs and collect data to create a richer user experience on our website... that extensibility ultimately empowers us to meet our customers' needs faster",
+            quote: "With Sitebuilderz, we can integrate third party tools through robust APIs and collect data to create a richer user experience on our website... that extensibility ultimately empowers us to meet our customers' needs faster",
             storyUrl: "#"
         },
         {
@@ -30,7 +30,7 @@ const Testimonial = () => {
             author: "Cat Origiano",
             title: "VP of Product & Portfolio Marketing, Fivetran",
             authorImage: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=facearea&w=400&h=400&facepad=2", // Unsplash portrait
-            quote: "With Webflow Enterprise, we're able to move with trust and confidence that things will get done quickly without compromising our brand or draining resources.",
+            quote: "With Sitebuilderz Enterprise, we're able to move with trust and confidence that things will get done quickly without compromising our brand or draining resources.",
             storyUrl: "#"
         },
         {
@@ -40,7 +40,7 @@ const Testimonial = () => {
             author: "Elizabeth Walton Egan",
             title: "CMO, Lattice",
             authorImage: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&w=400&h=400&facepad=2", // Unsplash portrait
-            quote: "With Webflow, we've significantly improved organic traffic, SEO, and conversions. From my perspective as CMO, that's a huge win because our brand is reaching more people.",
+            quote: "With Sitebuilderz, we've significantly improved organic traffic, SEO, and conversions. From my perspective as CMO, that's a huge win because our brand is reaching more people.",
             storyUrl: "#"
         },
         {
@@ -50,7 +50,7 @@ const Testimonial = () => {
             author: "Jenny Thai",
             title: "Head of Content, Vanta",
             authorImage: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=facearea&w=400&h=400&facepad=2", // Unsplash portrait
-            quote: "Webflow's visual-first CMS has been very powerful in helping us save time on shipping new pages. We no longer need to rely on an in-house web developer to build new content.",
+            quote: "Sitebuilderz's visual-first CMS has been very powerful in helping us save time on shipping new pages. We no longer need to rely on an in-house web developer to build new content.",
             storyUrl: "#"
         },
         {
@@ -60,7 +60,7 @@ const Testimonial = () => {
             author: "Michael Chen",
             title: "CEO, Outliant",
             authorImage: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=facearea&w=400&h=400&facepad=2", // Unsplash portrait
-            quote: "Webflow's platform has transformed how we approach web development. The combination of design flexibility and powerful integrations has accelerated our project delivery significantly.",
+            quote: "Sitebuilderz's platform has transformed how we approach web development. The combination of design flexibility and powerful integrations has accelerated our project delivery significantly.",
             storyUrl: "#"
         },
     ];
@@ -97,7 +97,7 @@ const Testimonial = () => {
             <Container>
                 <div className="flex flex-col md:flex-row gap-4 md:gap-0 justify-between items-end w-full py-12">
                     <Heading2 className="  max-w-2xl">
-                        The best companies build on Webflow
+                        The best companies build on Sitebuilderz
                     </Heading2>
                 </div>
             </Container>

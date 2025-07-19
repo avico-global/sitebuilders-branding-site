@@ -9,7 +9,7 @@ const ScrollNavbar = () => {
             title: "One powerful platform",
             links: [
                 {
-                    title: "Design and build",
+                    title: "Launch from Repo",
                     href: "design-build",
                     image: "/st-images/step1.svg"
                 },

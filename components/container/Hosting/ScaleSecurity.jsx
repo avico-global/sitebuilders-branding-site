@@ -14,7 +14,7 @@ export default function ScaleSecurity() {
         {
             icon: "/st-images/hosting/s (2).svg",
             title: "Traffic-surge ready",
-            description: "Webflow is equipped to handle high traffic volumes and can scale alongside growing site traffic."
+            description: "Sitebuilderz is equipped to handle high traffic volumes and can scale alongside growing site traffic."
         },
         {
             icon: "/st-images/hosting/s (3).svg",
@@ -34,12 +34,12 @@ export default function ScaleSecurity() {
         {
             icon: "/st-images/hosting/s (6).svg",
             title: "Automatic form spam filtering comes free",
-            description: "No more manual spam cleanup — Webflow's automated system filters form responses for you."
+            description: "No more manual spam cleanup — Sitebuilderz's automated system filters form responses for you."
         },
         {
             icon: "/st-images/hosting/s (3).svg",
             title: "SSO included for Enterprise",
-            description: "Webflow Enterprise customers enjoy secure and centralized access management using Single Sign-On (SSO), ensuring compliance with security policies."
+            description: "Sitebuilderz Enterprise customers enjoy secure and centralized access management using Single Sign-On (SSO), ensuring compliance with security policies."
         },
         {
             icon: "/st-images/hosting/s (4).svg",
@@ -49,7 +49,7 @@ export default function ScaleSecurity() {
         {
             icon: "/st-images/hosting/s (5).svg",
             title: "Security compliant",
-            description: "We take security seriously and map our security program to industry standards. Webflow is also SOC 2 Type II, CCPA, and GDPR compliant — to name a few."
+            description: "We take security seriously and map our security program to industry standards. Sitebuilderz is also SOC 2 Type II, CCPA, and GDPR compliant — to name a few."
         }
     ];
 
@@ -60,7 +60,7 @@ export default function ScaleSecurity() {
                     <div className="text-start mb-16">
                         <Heading2 className="mb-6">Scale securely</Heading2>
                         <p className="text-lg md:text-2xl max-w-3xl text-gray-200 mb-12 w-full">
-                            Webflow's enterprise-grade hosting securely processes tens of billions of page views a month.
+                            Sitebuilderz's enterprise-grade hosting securely processes tens of billions of page views a month.
                         </p>
                         {/* Globe representation */}
                         <div className="relative flex justify-center mb-8 rounded-lg overflow-hidden max-w-5xl mx-auto">
@@ -68,7 +68,7 @@ export default function ScaleSecurity() {
                         </div>
 
                         <p className="text-lg text-gray-300 text-center">
-                            Reach 95% of the world in less than 50 milliseconds with Webflow hosting.
+                            Reach 95% of the world in less than 50 milliseconds with Sitebuilderz hosting.
                         </p>
                     </div>
 

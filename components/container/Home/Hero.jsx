@@ -15,13 +15,13 @@ const Hero = () => {
                         <h3 className='text-gray-500 tracking-2 uppercase'>More than a website builder
                         </h3>
                         <Heading1 className=''>
-                        Launch faster <br /> Earn smarter.
+                        Turn Sites <br /> Into Success
                         </Heading1>
                     </div>
                     <div className='w-full flex flex-col md:flex-row  justify-between items-end gap-4 min-w-0'>
                         {/* LEFT TEXT */}
                         <h5 className='text-gray-700 text-lg leading-6 pt-4 md:pt-2 flex-1 min-w-0'>
-                            With Webflow’s all-in-one platform, you can create, manage, and optimize web experiences that convert — without sacrificing brand consistency.
+                            With Sitebuilderz’s all-in-one platform, you can create, manage, and optimize web experiences that convert — without sacrificing brand consistency.
                         </h5>
 
                         {/* RIGHT CTA SECTION */}

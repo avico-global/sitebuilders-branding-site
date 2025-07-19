@@ -8,7 +8,7 @@ const DesignBuild = ({ id }) => {
     const data = [
         {
             title: "Launch pixel-perfect sites",
-            desc: "Rethink the web dev cycle with Webflow. Give your design and marketing teams the power to launch sophisticated sites quickly — so your dev team can focus on more complex work, not pixel-perfect revisions.",
+            desc: "Rethink the web dev cycle with Sitebuilderz. Give your design and marketing teams the power to launch sophisticated sites quickly — so your dev team can focus on more complex work, not pixel-perfect revisions.",
             buttonText: "Get started — it's free",
             buttonLink: "#",
             videoSrc: "/videos/design-build.mp4",
@@ -28,7 +28,7 @@ const DesignBuild = ({ id }) => {
     const animationData = [
         {
             title: "Design without limits",
-            desc: "Webflow puts the power of code into a visual canvas so every team can create stunning websites quickly — and extend the power of their work with custom code.",
+            desc: "Sitebuilderz puts the power of code into a visual canvas so every team can create stunning websites quickly — and extend the power of their work with custom code.",
         },
         {
             title: "Create complex, rich interactions",
@@ -39,7 +39,7 @@ const DesignBuild = ({ id }) => {
             desc: "Custom templates, brand kits, and style systems keep everything consistent and scalable across teams.",
         },
         {
-            title: "Create even faster with the Webflow AI Assistant",
+            title: "Create even faster with the Sitebuilderz AI Assistant",
             desc: "Accelerate layout, component generation, and content editing with AI tools.",
         },
     ]

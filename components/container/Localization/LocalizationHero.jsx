@@ -48,7 +48,7 @@ export default function LocalizationHero() {
           Customize your site for visitors around the world
         </Heading2>
         <p className=' text-xl'>
-          From design to translation to best-in-class SEO, Webflow Localization is an end-to-end solution for customizing your site for a worldwide audience.
+          From design to translation to best-in-class SEO, Sitebuilderz Localization is an end-to-end solution for customizing your site for a worldwide audience.
         </p>
         <Button>Get started __ its free</Button>
 

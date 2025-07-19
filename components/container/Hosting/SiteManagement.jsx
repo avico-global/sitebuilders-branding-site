@@ -14,7 +14,7 @@ export default function SiteManagement() {
         {
           icon: "/st-images/hosting/s (2).svg",
           title: "Staging domains",
-          description: "Stage your site for testing and approval before hitting publish — and customize them (or make them private) with Webflow Enterprise."
+          description: "Stage your site for testing and approval before hitting publish — and customize them (or make them private) with Sitebuilderz Enterprise."
         },
         {
           icon: "/st-images/hosting/s (3).svg",
@@ -29,12 +29,12 @@ export default function SiteManagement() {
         {
           icon: "/st-images/hosting/s (5).svg",
           title: "Localization",
-          description: "Build, customize, and deliver fully localized sites within Webflow — and maintain domain authority with hosted subdirectories (like .com/es/)."
+          description: "Build, customize, and deliver fully localized sites within Sitebuilderz — and maintain domain authority with hosted subdirectories (like .com/es/)."
         },
         {
           icon: "/st-images/hosting/s (6).svg",
           title: "Custom Security Headers",
-          description: "Protect your site visitors from man-in-the-middle (MitM) attacks when you host with Webflow Enterprise."
+          description: "Protect your site visitors from man-in-the-middle (MitM) attacks when you host with Sitebuilderz Enterprise."
         }
       ];
 
@@ -45,7 +45,7 @@ export default function SiteManagement() {
                     <div className="grid grid-cols-1 md:grid-cols-2 items-end justify-end mb-16">
                         <Heading2 className="mb-6">Seamless site management</Heading2>
                         <p className="text-lg md:text-2xl max-w-3xl text-black h-fit">
-                            Webflow's enterprise-grade hosting securely processes tens of billions of page views a month.
+                            Sitebuilderz's enterprise-grade hosting securely processes tens of billions of page views a month.
                         </p>
                     </div>
 

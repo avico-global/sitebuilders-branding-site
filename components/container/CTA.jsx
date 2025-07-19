@@ -28,19 +28,19 @@ const CTA = () => {
         {/* Right Side */}
         <div className="flex-1 flex flex-col justify-center gap-8 lg:max-w-[475px]">
           <div className="text-[27px] font-normal mb-8">
-            Try Webflow for as long as you like with our free Starter plan. Purchase a paid Site plan to publish, host, and unlock additional features.
+            Try Sitebuilderz for as long as you like with our free Starter plan. Purchase a paid Site plan to publish, host, and unlock additional features.
           </div>
           <div className="border-t border-neutral-800 pt-10 mb-4">
             <div className="font-bold text-2xl mb-4">Contact sales</div>
             <div className="text-base mb-4">
-              Interested in Webflow Enterprise? Get in touch with our sales team to receive a free personalized demo.
+              Interested in Sitebuilderz Enterprise? Get in touch with our sales team to receive a free personalized demo.
             </div>
             <a href="#" className="text-white font-semibold text-base">Contact sales →</a>
           </div>
           <div className="border-t border-neutral-800 pt-10">
             <div className="font-bold text-2xl mb-4">Hire a Certified Partner</div>
             <div className="text-base mb-4">
-              Extend the power of your team by hiring a Certified Webflow Partner — we’ll match you with the best in the business.
+              Extend the power of your team by hiring a Certified Sitebuilderz Partner — we’ll match you with the best in the business.
             </div>
             <a href="#" className="text-white font-semibold text-base">Browse Partners →</a>
           </div>

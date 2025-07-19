@@ -73,42 +73,42 @@ const ExploreResources = () => {
             id: 0,
             image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80",
             title: "Accelerating global expansion",
-            description: "Learn how Smaller Earth Group, a leading travel company, launched localized sites to reach global audiences with Webflow...",
+            description: "Learn how Smaller Earth Group, a leading travel company, launched localized sites to reach global audiences with Sitebuilderz...",
             webinarUrl: "#"
         },
         {
             id: 1,
             image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
             title: "Unifying web design and data",
-            description: "Watch our webinar to discover how using Hubspot's powerful CRM with Webflow can enhance customer experiences and drive...",
+            description: "Watch our webinar to discover how using Hubspot's powerful CRM with Sitebuilderz can enhance customer experiences and drive...",
             webinarUrl: "#"
         },
         {
             id: 2,
             image: "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80",
             title: "Unlocking stronger collaboration",
-            description: "Join us to learn how modern teams like Kajabi are launching web projects faster and safer with Webflow.",
+            description: "Join us to learn how modern teams like Kajabi are launching web projects faster and safer with Sitebuilderz.",
             webinarUrl: "#"
         },
             {
         id: 3,
         image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=600&q=80",
         title: "Bridging the design to development gap",
-        description: "Join Webflow and Diana Mounter, Head of Design at Github, in this webinar on the process of integrating design and...",
+        description: "Join Sitebuilderz and Diana Mounter, Head of Design at Github, in this webinar on the process of integrating design and...",
         webinarUrl: "#"
     },
         {
             id: 4,
             image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80",
-            title: "Localize your site in Webflow",
+            title: "Localize your site in Sitebuilderz",
             description: "Learn how to localize a site for different languages and regions. Translate text, customize and manage content, and optimi...",
             webinarUrl: "#"
         },
         {
             id: 5,
             image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
-            title: "Unlock worldwide scale with Localization in Webflow",
-            description: "Discover the power of global expansion with Webflow Localization. Join our webinar for insights on website localization, customer...",
+            title: "Unlock worldwide scale with Localization in Sitebuilderz",
+            description: "Discover the power of global expansion with Sitebuilderz Localization. Join our webinar for insights on website localization, customer...",
             webinarUrl: "#"
         },
         {

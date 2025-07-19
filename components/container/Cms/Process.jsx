@@ -7,12 +7,12 @@ import Image from 'next/image'
 export default function Process({ id }) {
     const processData = {
         title: "For all the teams that bring your website to life",
-        subtitle: "Webflow's visual-first and composable CMS is made for everyone who has a hand in crafting digital experiences — so you can ship high-impact work, faster.",
+        subtitle: "Sitebuilderz's visual-first and composable CMS is made for everyone who has a hand in crafting digital experiences — so you can ship high-impact work, faster.",
         teams: [
             {
                 id: 1,
                 title: "Marketers",
-                description: "Write, edit, and update content directly in Webflow, then publish with a click — no dev help needed.",
+                description: "Write, edit, and update content directly in Sitebuilderz, then publish with a click — no dev help needed.",
                 icon: "/st-images/cms/process1.svg",
                 alt: "Marketers icon"
             },
@@ -26,7 +26,7 @@ export default function Process({ id }) {
             {
                 id: 3,
                 title: "Developers",
-                description: "Programmatically serve content in and out of Webflow and connect with your best-of-breed tech stack.",
+                description: "Programmatically serve content in and out of Sitebuilderz and connect with your best-of-breed tech stack.",
                 icon: "/st-images/cms/process3.svg",
                 alt: "Developers icon"
             }

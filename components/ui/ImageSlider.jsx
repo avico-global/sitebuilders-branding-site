@@ -39,7 +39,7 @@ const ImageSlider = () => {
         <>
             <FullContainer className='bg-black text-white'>
                 <Container className='flex flex-row gap-10 py-4 pb-16 border-t border-white/10 items-center justify-between'>
-                    <h2 className='text-sm md:text-lg lg:text-xl font-bold'>Over 3M sites running on Webflow</h2>
+                    <h2 className='text-sm md:text-lg lg:text-xl font-bold'>Over 3M sites running on Sitebuilderz</h2>
                     <div className='flex flex-row  items-center justify-center gap-2 bg-white text-black px-3 py-1 w-fit min-w-[150px] rounded-sm'>
                         <Image src='/st-images/logo192.png' alt='logo' width={100} height={100} className='w-5 h-5 md:w-7 md:h-7' />
                         <p className='text-[10px] shrink-0 pr-2'>Made in sitebuilderz</p>

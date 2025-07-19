@@ -12,12 +12,12 @@ export default function cms() {
   const data = [
     {
         title: "Create and edit CMS content in context",
-        desc: "Edit CMS content directly on Webflow’s visual canvas and see changes rendered in real time — as well as quickly spin up new CMS landing pages in Webflow.",
+        desc: "Edit CMS content directly on Sitebuilderz’s visual canvas and see changes rendered in real time — as well as quickly spin up new CMS landing pages in Sitebuilderz.",
         img: "/st-images/cms/cmsdesing1.avif"
     },
     {
         title: "Preview content, then publish instantly",
-        desc: "Scale securely with reliable, fast hosting, managed for you — plus launch with peace of mind thanks to Webflow's robust security and compliance features, so you can grow with uninterrupted momentum.",
+        desc: "Scale securely with reliable, fast hosting, managed for you — plus launch with peace of mind thanks to Sitebuilderz's robust security and compliance features, so you can grow with uninterrupted momentum.",
         img: "/st-images/cms/cmsdesign2.avif"
     },
     {

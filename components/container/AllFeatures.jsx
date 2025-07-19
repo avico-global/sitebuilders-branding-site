@@ -29,7 +29,7 @@ export default function AllFeatures() {
                 <div className="text-center mb-16">
                     <h1 className="text-4xl font-bold text-gray-900 mb-4">All features</h1>
                     <div className="flex items-center justify-center gap-4">
-                        <p className="text-xl text-gray-700">Discover everything you can do with Webflow.</p>
+                        <p className="text-xl text-gray-700">Discover everything you can do with Sitebuilderz.</p>
                         <a href="#" className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors">
                             <span className="text-lg">✨</span>
                             <span className="text-sm font-medium">Elevate your site with the power of AI</span>

@@ -6,7 +6,7 @@ const footerData = [
   {
     heading: 'PRODUCT',
     links: [
-      'Platform', 'Design', 'Edit mode', 'Interactions', 'GSAP', 'Page building  NEW', 'Shared Libraries  NEW', 'CMS', 'Hosting', 'Localization', 'Security', 'Ecommerce', 'Analyze  NEW', 'Optimize  NEW', 'SEO', 'Webflow Cloud  BETA', 'DevLink  LABS', 'Figma to Webflow  LABS', 'Accessibility', 'AI'
+      'Platform', 'Design', 'Edit mode', 'Interactions', 'GSAP', 'Page building  NEW', 'Shared Libraries  NEW', 'CMS', 'Hosting', 'Localization', 'Security', 'Ecommerce', 'Analyze  NEW', 'Optimize  NEW', 'SEO', 'Sitebuilderz Cloud  BETA', 'DevLink  LABS', 'Figma to Sitebuilderz  LABS', 'Accessibility', 'AI'
     ]
   },
   {
@@ -18,19 +18,19 @@ const footerData = [
   {
     heading: 'RESOURCES',
     links: [
-      'University', 'Blog', 'Customer stories', 'Webinars and ebooks', 'Apps', 'Libraries', 'Templates', 'Developers', 'Made in Webflow', 'Glossary', 'Livestreams'
+      'University', 'Blog', 'Customer stories', 'Webinars and ebooks', 'Apps', 'Libraries', 'Templates', 'Developers', 'Made in Sitebuilderz', 'Glossary', 'Livestreams'
     ]
   },
   {
     heading: 'COMPANY',
     links: [
-      'About', "Careers  WE'RE HIRING", 'Press', 'Webflow Ventures', 'Webflow Shop', 'Terms of Service', 'Privacy policy', 'Cookie policy', 'Cookie preferences', 'Accessibility statement', 'Sitemap'
+      'About', "Careers  WE'RE HIRING", 'Press', 'Sitebuilderz Ventures', 'Sitebuilderz Shop', 'Terms of Service', 'Privacy policy', 'Cookie policy', 'Cookie preferences', 'Accessibility statement', 'Sitemap'
     ]
   },
   {
     heading: 'COMMUNITY',
     links: [
-      'Discover the community', 'Partner with Webflow', 'Certified Partners', 'Become a template designer', 'Become an affiliate', 'Become a Global Leader', 'Find a meetup near you'
+      'Discover the community', 'Partner with Sitebuilderz', 'Certified Partners', 'Become a template designer', 'Become an affiliate', 'Become a Global Leader', 'Find a meetup near you'
     ]
   },
   {

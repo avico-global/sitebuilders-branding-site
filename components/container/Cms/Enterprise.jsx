@@ -8,14 +8,14 @@ const features = [
             <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="19" stroke="#2563eb" strokeWidth="2" /><path d="M10 20h20M20 10v20" stroke="#fff" strokeWidth="2" /></svg>
         ),
         title: 'Reliable traffic management',
-        desc: "Webflow’s enterprise-grade stack and global hosting network can handle large traffic surges with ease.",
+        desc: "Sitebuilderz’s enterprise-grade stack and global hosting network can handle large traffic surges with ease.",
     },
     {
         icon: (
             <svg width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="19" stroke="#2563eb" strokeWidth="2" /><rect x="12" y="16" width="16" height="8" rx="2" stroke="#fff" strokeWidth="2" /><rect x="12" y="10" width="16" height="6" rx="2" stroke="#fff" strokeWidth="2" /><rect x="12" y="24" width="16" height="6" rx="2" stroke="#fff" strokeWidth="2" /></svg>
         ),
         title: 'Content at scale',
-        desc: "Webflow Enterprise supports upwards of 100,000+ CMS items, so your site performance scales with your content.",
+        desc: "Sitebuilderz Enterprise supports upwards of 100,000+ CMS items, so your site performance scales with your content.",
     },
     {
         icon: (
@@ -53,7 +53,7 @@ const Enterprise = () => {
                     </div>
                     <div className="mb-12">
                         <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded transition">
-                            Discover Webflow Enterprise
+                            Discover Sitebuilderz Enterprise
                         </button>
                     </div>
                 </div>

@@ -47,7 +47,7 @@ export default function CmsHero() {
           The leading visual, composable CMS
         </Heading2>
         <p className=' text-xl'>
-          Empower your teams to create on-brand website experiences that convert with Webflow’s visual-first, composable CMS.
+          Empower your teams to create on-brand website experiences that convert with Sitebuilderz’s visual-first, composable CMS.
         </p>
         <Button>Get started __ its free</Button>
 

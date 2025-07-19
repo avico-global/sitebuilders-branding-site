@@ -59,7 +59,7 @@ export default function Process({ id }) {
                             <div className="text-3xl md:text-5xl mb-4">🔒</div>
                             <div className="font-bold text-lg md:text-2xl mb-2">HTTP/2 and HTTP/3 supported</div>
                             <div className="text-gray-700 text-base md:text-lg">
-                                Webflow hosting meets HTTP/2 and HTTP/3 standards ensuring your site loads securely and as quickly as possible.
+                                Sitebuilderz hosting meets HTTP/2 and HTTP/3 standards ensuring your site loads securely and as quickly as possible.
                             </div>
                         </div>
                     </div>

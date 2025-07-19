@@ -18,7 +18,7 @@ const VideoSlider = () => {
             url: "/videos/design-build1.mp4",
             company: "Fivetran",
             author: "Cat Origiano — VP of Product & Portfolio Marketing",
-            quote: "With Webflow Enterprise, we're able to move with trust and confidence that things will get done quickly without compromising our brand or draining resources.",
+            quote: "With Sitebuilderz Enterprise, we're able to move with trust and confidence that things will get done quickly without compromising our brand or draining resources.",
             stat: "98%",
             statLabel: "Increase in speed to market",
             storyUrl: "#"
@@ -28,7 +28,7 @@ const VideoSlider = () => {
             url: "/videos/design-build2.mp4",
             company: "Lattice",
             author: "Elizabeth Walton Egan — CMO",
-            quote: "With Webflow, we've significantly improved organic traffic, SEO, and conversions. From my perspective as CMO, that's a huge win because our brand is reaching more people.",
+            quote: "With Sitebuilderz, we've significantly improved organic traffic, SEO, and conversions. From my perspective as CMO, that's a huge win because our brand is reaching more people.",
             stat: "20%",
             statLabel: "Increase in organic traffic",
             storyUrl: "#"
@@ -38,7 +38,7 @@ const VideoSlider = () => {
             url: "/videos/design-build3.mp4",
             company: "Vanta",
             author: "Jenny Thai — Head of Content",
-            quote: "Webflow's visual-first CMS has been very powerful in helping us save time on shipping new pages. We no longer need to rely on an in-house web developer to build new content.",
+            quote: "Sitebuilderz's visual-first CMS has been very powerful in helping us save time on shipping new pages. We no longer need to rely on an in-house web developer to build new content.",
             stat: "5k",
             statLabel: "Faster speed to market",
             storyUrl: "#"
@@ -48,7 +48,7 @@ const VideoSlider = () => {
             url: "/videos/design-build4.mp4",
             company: "Outliant",
             author: "Elizabeth Walton Egan — CMO",
-            quote: "With Webflow, we've significantly improved organic traffic, SEO, and conversions. From my perspective as CMO, that's a huge win because our brand is reaching more people.",
+            quote: "With Sitebuilderz, we've significantly improved organic traffic, SEO, and conversions. From my perspective as CMO, that's a huge win because our brand is reaching more people.",
             stat: "$1M+",
             statLabel: "Increase in organic traffic",
             storyUrl: "#"
@@ -58,7 +58,7 @@ const VideoSlider = () => {
             url: "/videos/design-build5.mp4",
             company: "Outliant",
             author: "Jenny Thai — Head of Content",
-            quote: "Webflow's visual-first CMS has been very powerful in helping us save time on shipping new pages. We no longer need to rely on an in-house web developer to build new content.",
+            quote: "Sitebuilderz's visual-first CMS has been very powerful in helping us save time on shipping new pages. We no longer need to rely on an in-house web developer to build new content.",
             stat: "$1M+",
             statLabel: "Faster speed to market",
             storyUrl: "#"
@@ -118,7 +118,7 @@ const VideoSlider = () => {
             <Container>
                 <div className="flex flex-col md:flex-row gap-4 md:gap-0 justify-between items-end w-full py-12">
                     <Heading2 className="  max-w-2xl">
-                        The best companies build on Webflow
+                        The best companies build on Sitebuilderz
                     </Heading2>
                     <div className=" w-full flex flex-row justify-start md:justify-end items-center gap-4 ">
                         <div className=" w-full flex flex-row justify-between items-center gap-4 max-w-[60px] md:max-w-[100px] ">

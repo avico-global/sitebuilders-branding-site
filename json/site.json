@@ -6,13 +6,13 @@
             "price": "Free",
             "period": "",
             "billing": "",
-            "description": "For those getting started with Webflow.",
+            "description": "For those getting started with Sitebuilderz.",
             "buttonText": "Start for free",
             "sections": [
                 {
                     "title": "PUBLISHING",
                     "items": [
-                        "Webflow.io domain",
+                        "Sitebuilderz.io domain",
                         "2 pages",
                         "20 CMS collections",
                         "50 CMS items"
@@ -203,13 +203,13 @@
             "price": "Free",
             "period": "",
             "billing": "",
-            "description": "For those getting started with Webflow.",
+            "description": "For those getting started with Sitebuilderz.",
             "buttonText": "Start for free",
             "sections": [
                 {
                     "title": "STAGING",
                     "items": [
-                        "2 webflow.io staging sites",
+                        "2 Sitebuilderz.io staging sites",
                         "2 pages per staged site",
                         "50 CMS items per staged site"
                     ]
@@ -235,7 +235,7 @@
                 {
                     "title": "STAGING",
                     "items": [
-                        "10 webflow.io staging sites",
+                        "10 Sitebuilderz.io staging sites",
                         "300 pages per staged site",
                         "50 CMS items per staged site",
                         "Custom code"
@@ -331,7 +331,7 @@
                 {
                     "title": "STAGING",
                     "items": [
-                        "10 staging sites on webflow.io domains"
+                        "10 staging sites on Sitebuilderz.io domains"
                     ]
                 },
                 {
@@ -362,7 +362,7 @@
                 {
                     "title": "STAGING",
                     "items": [
-                        "Unlimited staging sites on webflow.io domains"
+                        "Unlimited staging sites on Sitebuilderz.io domains"
                     ]
                 },
                 {

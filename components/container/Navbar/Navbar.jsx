@@ -128,8 +128,8 @@ const Navbar = () => {
                 },
                 {
                     icon: <Figma />,
-                    title: 'Figma to Webflow',
-                    link: '/platform/figma-to-webflow',
+                    title: 'Figma to Sitebuilderz',
+                    link: '/platform/figma-to-Sitebuilderz',
                     description: 'Turn static designs into clean, production-ready code',
                 },
             ],
@@ -148,8 +148,8 @@ const Navbar = () => {
                 },
                 {
                     icon: <Globe />,
-                    title: 'Made in Webflow',
-                    link: '/resources/made-in-webflow',
+                    title: 'Made in Sitebuilderz',
+                    link: '/resources/made-in-Sitebuilderz',
                     description: 'Find and clone inspiring sites',
                 },
                 {
@@ -171,7 +171,7 @@ const Navbar = () => {
             links: [
                 {
                     icon: <BookOpen />,
-                    title: 'Webflow University',
+                    title: 'Sitebuilderz University',
                     link: '/resources/university',
                     description: 'Learn web design and development for free',
                 },
@@ -202,13 +202,13 @@ const Navbar = () => {
                     icon: <Globe />,
                     title: 'Community',
                     link: '/resources/community',
-                    description: 'Connect with the worldwide Webflow community',
+                    description: 'Connect with the worldwide Sitebuilderz community',
                 },
                 {
                     icon: <Rocket />,
-                    title: 'Partner with Webflow',
+                    title: 'Partner with Sitebuilderz',
                     link: '/resources/partner',
-                    description: 'Grow your business by becoming a Webflow partner',
+                    description: 'Grow your business by becoming a Sitebuilderz partner',
                 },
             ],
         },
@@ -225,7 +225,7 @@ const Navbar = () => {
                     icon: <Users />,
                     title: 'Forum',
                     link: '/resources/forum',
-                    description: 'Ask questions and learn alongside other Webflow users',
+                    description: 'Ask questions and learn alongside other Sitebuilderz users',
                 },
             ],
         },
@@ -233,7 +233,7 @@ const Navbar = () => {
 
     const solutionsData = [
         {
-            title: 'WEBFLOW FOR',
+            title: 'Sitebuilderz FOR',
             links: [
                 {
                     icon: <Users />,
@@ -263,13 +263,13 @@ const Navbar = () => {
                     icon: <Zap />,
                     title: 'Startups',
                     link: '/solutions/startups',
-                    description: 'Move faster with Webflow',
+                    description: 'Move faster with Sitebuilderz',
                 },
                 {
                     icon: <BookOpen />,
                     title: 'Classrooms',
                     link: '/solutions/classrooms',
-                    description: 'Register to use Webflow for free',
+                    description: 'Register to use Sitebuilderz for free',
                 },
             ],
         },

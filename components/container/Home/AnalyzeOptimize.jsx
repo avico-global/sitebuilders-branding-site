@@ -25,11 +25,11 @@ const AnalyzeOptimize = ({ id }) => {
       const animationData = [
         {
         title: "Understand site performance",
-          desc: "Webflow Analyze puts a native, unified view of visitor behavior into the hands of designers and marketers so they can make data-driven site improvements.",
+          desc: "Sitebuilderz Analyze puts a native, unified view of visitor behavior into the hands of designers and marketers so they can make data-driven site improvements.",
         },
         {
           title: "Iterate, test, repeat",
-          desc: "Webflow Optimize gives marketers the tools to increase conversions, including native A/B testing and Al-powered personalization.",
+          desc: "Sitebuilderz Optimize gives marketers the tools to increase conversions, including native A/B testing and Al-powered personalization.",
         },
         {
           title: "Keep your SEO controls under control",
