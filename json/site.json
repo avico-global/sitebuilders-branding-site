@@ -1,0 +1,387 @@
+{
+    "general": [
+        {
+            "id": 5,
+            "name": "STARTER",
+            "price": "Free",
+            "period": "",
+            "billing": "",
+            "description": "For those getting started with Webflow.",
+            "buttonText": "Start for free",
+            "sections": [
+                {
+                    "title": "PUBLISHING",
+                    "items": [
+                        "Webflow.io domain",
+                        "2 pages",
+                        "20 CMS collections",
+                        "50 CMS items"
+                    ]
+                },
+                {
+                    "title": "HOSTING",
+                    "items": [
+                        "50 form submits (lifetime)",
+                        "1 GB bandwidth"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "BASIC",
+            "price": "14",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "For relatively simple, static sites.",
+            "buttonText": "Add Site plan",
+            "sections": [
+                {
+                    "title": "PUBLISHING",
+                    "items": [
+                        "Custom domain",
+                        "150 pages",
+                        "0 CMS collections",
+                        "0 CMS items"
+                    ]
+                },
+                {
+                    "title": "HOSTING",
+                    "items": [
+                        "Unlimited form submits",
+                        "10 GB bandwidth",
+                        "Surge protection"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "CMS",
+            "price": "23",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "For blogs or other content-driven sites.",
+            "buttonText": "Add Site plan",
+            "sections": [
+                {
+                    "title": "PUBLISHING",
+                    "items": [
+                        "Custom domain",
+                        "150 pages",
+                        "20 CMS collections",
+                        "2,000 CMS items"
+                    ]
+                },
+                {
+                    "title": "HOSTING",
+                    "items": [
+                        "Unlimited form submits",
+                        "50 GB bandwidth",
+                        "Surge protection"
+                    ]
+                },
+                {
+                    "title": "ADDITIONAL FEATURES",
+                    "items": [
+                        "3 legacy Editor users",
+                        "Site search"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "BUSINESS",
+            "price": "39",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "For larger sites that need more flexibility.",
+            "buttonText": "Add Site plan",
+            "sections": [
+                {
+                    "title": "PUBLISHING",
+                    "items": [
+                        "Custom domain",
+                        "300 pages",
+                        "40 CMS collections",
+                        "10,000 CMS items"
+                    ]
+                },
+                {
+                    "title": "HOSTING",
+                    "items": [
+                        "Unlimited form submits",
+                        "100 GB bandwidth",
+                        "Surge protection"
+                    ]
+                },
+                {
+                    "title": "ADDITIONAL FEATURES",
+                    "items": [
+                        "10 legacy Editor users",
+                        "Site search",
+                        "Form file upload"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "ENTERPRISE",
+            "price": "",
+            "period": "",
+            "billing": "",
+            "description": "For those who need a scalable custom solution.",
+            "buttonText": "Talk to us",
+            "sections": [
+                {
+                    "title": "",
+                    "items": [
+                        "Enterprise-ready scale",
+                        "Advanced collaboration",
+                        "Guaranteed SLA",
+                        "Enterprise security",
+                        "Customer success",
+                        "Enterprise support"
+                    ]
+                }
+            ]
+        }
+    ],
+    "ecommerce": [
+        {
+            "id": 1,
+            "name": "STANDARD",
+            "price": "29",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "Perfect for businesses getting off the ground",
+            "buttonText": "Add Ecommerce plan",
+            "features": [
+                "500 ecommerce items",
+                "2,000 CMS items",
+                "2% transaction fee",
+                "All CMS plan features"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "PLUS",
+            "price": "74",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "Best for higher volume businesses",
+            "buttonText": "Add Ecommerce plan",
+            "features": [
+                "5,000 ecommerce items",
+                "10,000 CMS items",
+                "0% transaction fee",
+                "All Business plan features"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "ADVANCED",
+            "price": "212",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "Scale your online business to new heights",
+            "buttonText": "Add Ecommerce plan",
+            "features": [
+                "15,000 ecommerce items",
+                "10,000 CMS items",
+                "0% transaction fee",
+                "All Business plan features"
+            ]
+        }
+    ],
+    "forteams": [
+        {
+            "id": 1,
+            "name": "STARTER",
+            "price": "Free",
+            "period": "",
+            "billing": "",
+            "description": "For those getting started with Webflow.",
+            "buttonText": "Start for free",
+            "sections": [
+                {
+                    "title": "STAGING",
+                    "items": [
+                        "2 webflow.io staging sites",
+                        "2 pages per staged site",
+                        "50 CMS items per staged site"
+                    ]
+                },
+                {
+                    "title": "COLLABORATION",
+                    "items": [
+                        "Includes 1 full seat",
+                        "2 Agency / Freelancer guests"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "CORE",
+            "price": "19",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "For those who need enhanced staging capabilities.",
+            "buttonText": "Upgrade Workspace plan",
+            "sections": [
+                {
+                    "title": "STAGING",
+                    "items": [
+                        "10 webflow.io staging sites",
+                        "300 pages per staged site",
+                        "50 CMS items per staged site",
+                        "Custom code"
+                    ]
+                },
+                {
+                    "title": "COLLABORATION",
+                    "items": [
+                        "Includes 1 full seat",
+                        "2 Agency / Freelancer guests"
+                    ]
+                },
+                {
+                    "title": "ADDITIONAL FEATURES",
+                    "items": [
+                        "Code export"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "GROWTH",
+            "price": "49",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "For those who need unlimited staging and advanced collaboration tools.",
+            "buttonText": "Upgrade Workspace plan",
+            "sections": [
+                {
+                    "title": "STAGING",
+                    "items": [
+                        "Unlimited staging sites",
+                        "300 pages per staged site",
+                        "50 CMS items per staged site",
+                        "Custom code",
+                        "Site password protection",
+                        "301 redirects"
+                    ]
+                },
+                {
+                    "title": "COLLABORATION",
+                    "items": [
+                        "Includes 1 full seat",
+                        "2 Agency / Freelancer guests",
+                        "Site-specific access",
+                        "Site-level roles",
+                        "Publishing permissions"
+                    ]
+                },
+                {
+                    "title": "ADDITIONAL FEATURES",
+                    "items": [
+                        "Code export",
+                        "Shared Libraries"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "ENTERPRISE",
+            "price": "",
+            "period": "",
+            "billing": "",
+            "description": "For those who need a scalable custom solution.",
+            "buttonText": "Talk to us",
+            "sections": [
+                {
+                    "title": "",
+                    "items": [
+                        "Enterprise-ready scale",
+                        "Advanced collaboration",
+                        "Guaranteed SLA",
+                        "Enterprise security",
+                        "Customer success",
+                        "Enterprise support"
+                    ]
+                }
+            ]
+        }
+    ],
+    "forfreelancers": [
+        {
+            "id": 5,
+            "name": "FREELANCER",
+            "price": "16",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "For those with a few clients.",
+            "buttonText": "Upgrade Workspace plan",
+            "sections": [
+                {
+                    "title": "STAGING",
+                    "items": [
+                        "10 staging sites on webflow.io domains"
+                    ]
+                },
+                {
+                    "title": "COLLABORATION",
+                    "items": [
+                        "Free guest access in client Workspaces",
+                        "Includes 1 full seat"
+                    ]
+                },
+                {
+                    "title": "ADDITIONAL FEATURES",
+                    "items": [
+                        "Full CMS access on staging sites",
+                        "Client payments"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "AGENCY",
+            "price": "35",
+            "period": "/mo",
+            "billing": "billed yearly",
+            "description": "For those with many clients.",
+            "buttonText": "Upgrade Workspace plan",
+            "sections": [
+                {
+                    "title": "STAGING",
+                    "items": [
+                        "Unlimited staging sites on webflow.io domains"
+                    ]
+                },
+                {
+                    "title": "COLLABORATION",
+                    "items": [
+                        "Free guest access in client Workspaces",
+                        "Includes 1 full seat"
+                    ]
+                },
+                {
+                    "title": "ADDITIONAL FEATURES",
+                    "items": [
+                        "Full CMS access on staging sites",
+                        "Client payments",
+                        "Advanced roles and permissions",
+                        "Shared Libraries"
+                    ]
+                }
+            ]
+        }
+    ]
+}

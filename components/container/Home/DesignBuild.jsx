@@ -1,0 +1,56 @@
+import React from 'react'
+import FullContainer from '../../common/FullContainer'
+import Container from '../../common/Container'
+import ProcessSection from '../../ui/VIdeoChanger'
+import VideoSlider from '../../ui/VideoSlider'
+
+const DesignBuild = ({ id }) => {
+    const data = [
+        {
+            title: "Launch pixel-perfect sites",
+            desc: "Rethink the web dev cycle with Webflow. Give your design and marketing teams the power to launch sophisticated sites quickly — so your dev team can focus on more complex work, not pixel-perfect revisions.",
+            buttonText: "Get started — it's free",
+            buttonLink: "#",
+            videoSrc: "/videos/design-build.mp4",
+            ebook: {
+                show: true,
+                title: "The power of building websites in a Website Experience Platform",
+                link: "#"
+            },
+            videos: [
+                { src: "/videos/Video-sitebuilderz/Articles.mp4" },
+                { src: "/videos/Video-sitebuilderz/Project.mp4" },
+                { src: "/videos/Video-sitebuilderz/Seo.mp4" },
+                { src: "/videos/Video-sitebuilderz/New-blog.mp4" },
+            ]
+        }
+    ]
+    const animationData = [
+        {
+            title: "Design without limits",
+            desc: "Webflow puts the power of code into a visual canvas so every team can create stunning websites quickly — and extend the power of their work with custom code.",
+        },
+        {
+            title: "Create complex, rich interactions",
+            desc: "Design scroll-based and multi-step interactions and animations and easily work with GSAP, Spline, 3D, Lottie, and Rive — all without even thinking about code.",
+        },
+        {
+            title: "Empower everyone to build on-brand sites",
+            desc: "Custom templates, brand kits, and style systems keep everything consistent and scalable across teams.",
+        },
+        {
+            title: "Create even faster with the Webflow AI Assistant",
+            desc: "Accelerate layout, component generation, and content editing with AI tools.",
+        },
+    ]
+    return (
+        <div id={id}>
+            <FullContainer> 
+                <ProcessSection theme="light" data={data} animationData={animationData} />
+                <VideoSlider/>
+            </FullContainer>
+        </div>
+    )
+}
+
+export default DesignBuild
