@@ -9,6 +9,8 @@ import EditAndOptimize from "../../components/container/Home/EditAndOptimize";
 import CTA from "../../components/container/CTA";
 import ImageSlider from "../../components/ui/ImageSlider";
 import BoostVisibilityDominateGoogle from "../../components/container/Home/BoostVisibilityDominateGoogle";
+import ScaleAndCollaborate from "../../components/container/Home/ScaleAndCollaborate";
+import FAQs from "../../components/container/Home/FAQs";
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
       <BuildFastWithTemplates id="publish-edit" />
       <EditAndOptimize id="analyze-optimize" />
       <BoostVisibilityDominateGoogle id="scale-collaborate" />
+      <ScaleAndCollaborate id="scale-collaborate" />
+      <FAQs />
       <CTA />
       <ImageSlider />
     </Layout>
