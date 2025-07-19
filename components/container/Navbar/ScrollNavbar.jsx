@@ -96,7 +96,7 @@ const ScrollNavbar = () => {
 
             {/* Actual scroll navbar */}
             <div
-                className={`w-full hidden md:block bg-[#F0F0F0] shadow-lg border-b border-gray-200 transition-all duration-500 fixed top-[64.5px] left-0 right-0 z-40 ${isVisible
+                className={`w-full hidden md:block bg-[#F0F0F0] shadow-lg border-b border-gray-200 transition-all duration-500 fixed top-[63px] left-0 right-0 z-40 ${isVisible
                         ? 'opacity-100 pointer-events-auto'
                         : 'opacity-0 pointer-events-none'
                     }`}
