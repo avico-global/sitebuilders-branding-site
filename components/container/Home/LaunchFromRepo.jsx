@@ -18,10 +18,10 @@ const LaunchFromRepo = ({ id }) => {
                 link: "#"
             },
             videos: [
-                { src: "/videos/Video-sitebuilderz/Articles.mp4" },
-                { src: "/videos/Video-sitebuilderz/Project.mp4" },
-                { src: "/videos/Video-sitebuilderz/Seo.mp4" },
-                { src: "/videos/Video-sitebuilderz/New-blog.mp4" },
+                { src: "/videos/steps-videos/1.1.mov" },
+                { src: "/videos/steps-videos/1.2.mov" },
+                { src: "/videos/steps-videos/1.3.mov" },
+                // { src: "/videos/steps-videos/1.4.mov" },
             ]
         }
     ]

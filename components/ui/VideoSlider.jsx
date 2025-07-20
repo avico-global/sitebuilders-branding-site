@@ -71,6 +71,7 @@ const VideoSlider = () => {
     const [translateX, setTranslateX] = useState(0);
     const changeTimeout = useRef();
     const videoRefs = useRef([]);
+    const autoPlayTimeout = useRef();
 
     useEffect(() => {
         if (!slidesContainerRef.current || !slideRefs.current[activeIndex]) return;
@@ -84,6 +85,22 @@ const VideoSlider = () => {
         const offset = activeCenter - containerCenter;
         setTranslateX(offset);
     }, [activeIndex]);
+
+    // Auto-advance slides every 10 seconds
+    useEffect(() => {
+        if (isPlaying) {
+            autoPlayTimeout.current = setTimeout(() => {
+                const nextIndex = (activeIndex + 1) % slides.length;
+                setActiveIndex(nextIndex);
+            }, 12000); // 10 seconds
+        }
+
+        return () => {
+            if (autoPlayTimeout.current) {
+                clearTimeout(autoPlayTimeout.current);
+            }
+        };
+    }, [activeIndex, isPlaying, slides.length]);
 
     useEffect(() => {
         videoRefs.current.forEach((video, idx) => {

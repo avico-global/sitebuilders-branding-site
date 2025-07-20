@@ -19,7 +19,7 @@ const ProcessSection = ({ theme, data, animationData }) => {
                         </Container>
                     </FullContainer>
 
-                    <FullContainer className={`relative max-w-[1850px] mx-auto  overflow-hidden ${theme === "light" ? "bg-white text-black" : "bg-black text-white"}`}>
+                    <FullContainer className={`relative max-w-[1850px]  mx-auto  overflow-hidden ${theme === "light" ? "bg-white text-black" : "bg-black text-white"}`}>
                         <Container className=' flex flex-col lg:flex-row h-full items-stretch'>
                             <div className="lg:w-[54%] lg:pr-24  lg:h-full">
                                 <p className={`text-xl md:text-[26px] mb-8 ${theme === "light" ? "text-gray-900" : "text-gray-100"}`}>{item.desc}</p>
@@ -46,20 +46,17 @@ const ProcessSection = ({ theme, data, animationData }) => {
                                     />
                                 </div>
                             </div>
-                            <div className='lg:w-[46%] relative w-full lg:h-[950px]'>
-                                <div className='w-[100%] h-full p-0 m-0 aspect-square lg:aspect-auto lg:absolute lg:w-[890px] lg:bottom-0 lg:left-0 bg-black rounded'>
-                                    {item.videos?.map((video, vIdx) => (
+                            <div className='lg:w-[46%] relative w-full lg:h-[830px] '>
+                                <div className='w-[100%] h-full lg:h-full p-0 m-0 aspect-square lg:aspect-auto lg:absolute lg:w-[890px] lg:bottom-0 lg:left-0 bg-black rounded'>
                                     <video
-                                        key={vIdx}
                                         src={item.videos[activeVideoIndex]?.src || item.videos[0]?.src}
                                         autoPlay
                                         muted
                                         loop
                                         playsInline
-                                        className='w-full h-full object-cover rounded'
+                                        className='w-full h-full object-contain rounded'
                                         onError={(e) => console.error('Video error:', e)}
                                     />
-                                    ))}
                                 </div>
                             </div>
                         </Container>
@@ -140,7 +137,7 @@ function SectionAnimation({ sections, theme, onSectionChange }) {
                 setVisibleSection(nextSection);
                 onSectionChange(nextSection);
             }, 300);
-        }, 9000);
+        }, 11000);
 
         return () => clearTimeout(timeoutRef.current);
     }, [activeSection, sections.length, onSectionChange]);

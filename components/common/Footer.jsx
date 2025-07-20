@@ -6,7 +6,7 @@ const footerData = [
   {
     heading: 'PRODUCT',
     links: [
-      'Platform', 'Design', 'Edit mode', 'Interactions', 'GSAP', 'Page building  NEW', 'Shared Libraries  NEW', 'CMS', 'Hosting', 'Localization', 'Security', 'Ecommerce', 'Analyze  NEW', 'Optimize  NEW', 'SEO', 'Sitebuilderz Cloud  BETA', 'DevLink  LABS', 'Figma to Sitebuilderz  LABS', 'Accessibility', 'AI'
+      'CMS', 'Hosting', 'Localization', 'Analyze  NEW', 'Optimize  NEW', 'SEO'
     ]
   },
   {
