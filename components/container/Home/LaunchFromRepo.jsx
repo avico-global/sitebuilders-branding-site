@@ -7,8 +7,8 @@ import VideoSlider from '../../ui/VideoSlider'
 const LaunchFromRepo = ({ id }) => {
     const data = [
         {
-            title: "Launch pixel-perfect sites",
-            desc: "Rethink the web dev cycle with Sitebuilderz. Give your design and marketing teams the power to launch sophisticated sites quickly — so your dev team can focus on more complex work, not pixel-perfect revisions.",
+            title: "Launch From Repo",
+            desc: "Deploy your website directly from a Git repository. Just connect your repo, fill in details, and launch your site instantly with a live staging link.",
             buttonText: "Get started — it's free",
             buttonLink: "#",
             videoSrc: "/videos/design-build.mp4",
@@ -18,36 +18,36 @@ const LaunchFromRepo = ({ id }) => {
                 link: "#"
             },
             videos: [
-                { src: "/videos/steps-videos/1.1.mov" },
-                { src: "/videos/steps-videos/1.2.mov" },
-                { src: "/videos/steps-videos/1.3.mov" },
-                // { src: "/videos/steps-videos/1.4.mov" },
+                { src: "/videos/steps-videos/1.31.mov" },
+                { src: "/videos/steps-videos/1.32.mov" },
+                { src: "/videos/steps-videos/1.33.mov" },
+                { src: "/videos/steps-videos/1.34.mov" },
             ]
         }
     ]
     const animationData = [
         {
-            title: "Design without limits",
-            desc: "Sitebuilderz puts the power of code into a visual canvas so every team can create stunning websites quickly — and extend the power of their work with custom code.",
+            title: "Select Merchant & Go to Projects",
+            desc: "Pick your merchant to keep things organized. Then go to the Projects section from your dashboard to get started.",
         },
         {
-            title: "Create complex, rich interactions",
-            desc: "Design scroll-based and multi-step interactions and animations and easily work with GSAP, Spline, 3D, Lottie, and Rive — all without even thinking about code.",
+            title: "Add a New Project”",
+            desc: "Click Add Project to begin. This will open a simple form to help you create and configure a new project quickly.",
         },
         {
-            title: "Empower everyone to build on-brand sites",
-            desc: "Custom templates, brand kits, and style systems keep everything consistent and scalable across teams.",
+            title: "Fill Required Details",
+            desc: "Enter your Git repository URL and fill out all necessary fields like project name and description to proceed with the setup.",
         },
         {
-            title: "Create even faster with the Sitebuilderz AI Assistant",
-            desc: "Accelerate layout, component generation, and content editing with AI tools.",
+            title: "Launch Your Site",
+            desc: "After setup, connect your domain or use the provided Staging URL to preview and test your live site instantly.",
         },
     ]
     return (
         <div id={id}>
-            <FullContainer> 
+            <FullContainer>
                 <ProcessSection theme="light" data={data} animationData={animationData} />
-                <VideoSlider/>
+                <VideoSlider />
             </FullContainer>
         </div>
     )

@@ -9,40 +9,40 @@ import { ArrowRightIcon } from 'lucide-react'
 const BuildFastWithTemplates = ({ id }) => {
   const data = [
     {
-        title: "Manage content visually, publish anywhere",
-        desc: "Sitebuilderz's visual-first, composable CMS is made for everyone who has a hand in crafting digital experiences — so you can ship high-impact content, faster.",
-        buttonText: "Get started — it's free",
-        buttonLink: "#",
-        videoSrc: "/videos/design-build.mp4",
-        ebook: {
-            show: true,
-            title: "how to manage your site content for scale",
-            link: "#"
-        },
-        videos: [
-          { src: "/videos/design-build1.1.mp4" },
-          { src: "/videos/design-build1.2.mp4" },
-          { src: "/videos/design-build1.3.mp4" },
-          { src: "/videos/design-build1.4.mp4" },
-        ]
+      title: "Build Fast with Templates",
+      desc: "Pick a template, customize it, and go live in minutes. Site Builderz makes website creation fast, easy, and code-free — perfect for quick launches.",
+      buttonText: "Get started — it's free",
+      buttonLink: "#",
+      videoSrc: "/videos/design-build.mp4",
+      ebook: {
+        show: true,
+        title: "how to manage your site content for scale",
+        link: "#"
+      },
+      videos: [
+        { src: "/videos/steps-videos/2.31.mov" },
+        { src: "/videos/steps-videos/2.32.mov" },
+        { src: "/videos/steps-videos/2.33.mov" },
+        { src: "/videos/steps-videos/2.34.mov" }, 
+      ]
     }
-]
+  ]
   const animationData = [
     {
-    title: "PSeamlessly write, edit, and publish",
-      desc: "Write, edit, and update content - or generate it with the help of Al- directly in Sitebuilderz, then publish with a click.",
+      title: "Select Merchant & Go to Projects",
+      desc: "Pick your merchant to keep things organized. Then go to the Projects section from your dashboard to get started.",
+  },
+  {
+      title: " Add Project & Choose Template",
+      desc: "Click Add Project, select the website type, fill in details, choose a template, and clone it to create your site effortlessly.",
+  },
+    {
+      title: "Launch Your Site",
+      desc: "Connect your custom domain or use the generated Staging URL to view your fully functional site in real-time.",
     },
     {
-      title: "Design with dynamic content",
-      desc: "Easily create page layouts by adding the elements you want and pulling in content from the CMS. Plus create reusable templates for dynamic content - design the layout once and any new content will automatically follow it.",
-    },
-    {
-      title: "Programmatically deliver content at scale",
-      desc: "Programmatically serve content in and out of Sitebuilderz or connect with best-of-breed tools through Sitebuilderz's powerful CMS APIs.",
-    },  
-    {
-      title: "Create fully localized experiences",
-      desc: "From design to translation to best-in-class SEO, customize your site for a worldwide audience with a native, end-to-end solution.",
+      title: "Customize Your Project",
+      desc: "Open Manage Project to update text, images, and layouts. Personalize your site without touching a single line of code.",
     },
   ]
   return (
@@ -67,7 +67,7 @@ const PublishEditSection = () => {
         <div className="w-full h-full bg-black rounded-full"></div>
       </div>
       {/* Bottom Left */}
-        <div className="absolute bottom-0 left-0 translate-x-[-50%] translate-y-[50%] aspect-square h-[300px] sm:h-[400px] md:h-[500px] lg:h-[650px] p-[2px] sm:p-[3px] bg-gradient-to-r from-white via-[#E24E28] to-black rounded-full">
+      <div className="absolute bottom-0 left-0 translate-x-[-50%] translate-y-[50%] aspect-square h-[300px] sm:h-[400px] md:h-[500px] lg:h-[650px] p-[2px] sm:p-[3px] bg-gradient-to-r from-white via-[#E24E28] to-black rounded-full">
         <div className="w-full h-full bg-black rounded-full"></div>
       </div>
       {/* Bottom Right */}
@@ -88,8 +88,8 @@ const PublishEditSection = () => {
       </p>
       {/* Call to action */}
       <Button href="#" className="px-4 items-center sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4 !bg-black !text-white font-semibold rounded-full shadow-lg hover:bg-gray-200 transition z-10 text-sm sm:text-base">
-        Discover AI at Sitebuilderz 
-      <ArrowRightIcon className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2 z-10"/>
+        Discover AI at Sitebuilderz
+        <ArrowRightIcon className="w-3 h-3 sm:w-4 sm:h-4 ml-1 sm:ml-2 z-10" />
       </Button>
     </FullContainer>
   )

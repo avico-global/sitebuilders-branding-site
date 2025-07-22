@@ -47,6 +47,7 @@
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --font-weight-black: 900;
+    --screen-1.5xl: 1400px;
 }
 .root{
   --primary-color: var(--color-primary);
