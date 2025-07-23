@@ -4,7 +4,7 @@ import ProcessSection from '../../ui/VIdeoChanger'
 const EditAndOptimize = ({ id }) => {
     const data = [
         {
-            title: "Drive real business results, fast",
+            title: "Edit and optimize",
             desc: "Deliver web experiences that get results with built-in tools for analytics, A/B testing, AI-driven personalization, and SEO.",
             buttonText: "Get started — it's free",
             buttonLink: "#",

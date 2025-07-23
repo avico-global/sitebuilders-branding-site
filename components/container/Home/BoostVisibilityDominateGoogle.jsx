@@ -63,7 +63,7 @@ const BoostVisibilityDominateGoogle = ({ id }) => {
             <FullContainer className='bg-[#F0F0F0]'>
                 <Container className='!py-16'>
                     <div className='flex flex-col lg:flex-row items-start lg:items-end justify-center pt-20 md:pt-32 lg:pt-40 gap-6 lg:gap-0'>
-                        <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-[80px] leading-tight font-bold lg:w-[120%] lg:pr-10 xl:pr-0'>Scale your site and business</h2>
+                        <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-[80px] leading-tight font-bold lg:w-[120%] lg:pr-10 xl:pr-0'>Boost Visibility. Dominate Google</h2>
                         <div className='lg:pl-28 text-sm sm:text-base md:text-lg lg:text-[18px] lg:w-[90%] lg:pt-10'>
                             Tools to support your growth — without sacrificing speed, quality, or security.
                         </div>
