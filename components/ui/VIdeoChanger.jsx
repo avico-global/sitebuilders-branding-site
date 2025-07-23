@@ -100,7 +100,7 @@
                     setVisibleSection(nextSection);
                     onSectionChange(nextSection);
                 }, 300);
-            }, 9000);
+            }, 10000);
         };
 
         useEffect(() => {
@@ -140,7 +140,7 @@
                     setVisibleSection(nextSection);
                     onSectionChange(nextSection);
                 }, 300);
-            }, 11000);
+            }, 10000);
 
             return () => clearTimeout(timeoutRef.current);
         }, [activeSection, sections.length, onSectionChange]);
