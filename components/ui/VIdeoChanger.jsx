@@ -48,7 +48,7 @@
                                 </div>
                                 <div className=':w-[46%] lg:w-[46%]  rounded-lg  relative w-auto aspect-square lg:h-[810px]'>
                                     <div className='w-auto h-full lg:h-full py-5 pl-5 bg-gray-100 m-0 aspect-square lg:aspect-auto lg:absolute lg:w-[810px] lg:bottom-0 lg:left-0 rounded-lg overflow-hidden'>
-                                        <div className='w-full pr-[100px] h-full 2xl:pr-5'>
+                                        <div className='w-full pr-5 lg:pr-[100px] h-full 2xl:pr-5'>
                                             <video
                                                 src={item.videos[activeVideoIndex]?.src || item.videos[0]?.src}
                                                 autoPlay

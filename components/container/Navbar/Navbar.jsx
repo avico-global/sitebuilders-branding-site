@@ -397,77 +397,12 @@ const Navbar = () => {
                                     ))}
                                 </div>
                             </div>
-                            <div className='flex flex-row gap-1 items-center cursor-pointer relative group' onClick={() => { setIsSolutionsOpen(!isSolutionsOpen); setIsPlatformOpen(false); setIsResourcesOpen(false) }}>
-                                <div className='absolute bottom-0 left-0 w-full h-0.5 bg-amber-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out'></div>
-                                Solutions
-                                <ChevronDownIcon className='w-4 h-4' />
-                            </div>
-                            <div ref={solutionsDropdownRef} className={`absolute max-w-7xl w-[40%] px-2.5 sm:px-0 mx-auto h-full z-50 top-[70px] left-1/2 -translate-x-1/2 rounded-sm transition-all duration-500 ease-out transform origin-top  ${isSolutionsOpen ? 'opacity-100 scale-100 max-h-max' : 'opacity-0 scale-0 max-h-0 overflow-hidden'}`} onClick={(e) => e.stopPropagation()}>
-                                <div className='grid grid-cols-4 gap-8 bg-white rounded-sm p-4'>
-                                    {solutionsData.map((item, index) => (
-                                        <div
-                                            key={index}
-                                            className={`flex flex-col gap-2 border-r  bg-white border-gray-200 ${index === 0 ? 'col-span-2' : ''} ${index === solutionsData.length - 1 ? 'border-r-0' : ''} rounded-sm p-2 max-w-xs`}
-                                        >
-                                            <h3 className='text-xs uppercase text-gray-500 pb-5 tracking-wider'>{item.title}</h3>
-                                            <div className='flex flex-col gap-4'>
-                                                {item.links.map((link, idx) => (
-                                                    <div key={idx} className='flex flex-row gap-3 items-start cursor-pointer hover:bg-gray-50 rounded'>
-                                                        <div className='pt-1 text-lg w-5 h-5 flex items-center justify-center'>{link.icon}</div>
-                                                        <div className='flex flex-col gap-1'>
-                                                            <div className='flex flex-row items-center gap-2'>
-                                                                <h4 className='text-base font-bold'>{link.title}</h4>
-                                                                {link.isNew && <span className='text-xs text-blue-600 font-semibold'>NEW</span>}
-                                                            </div>
-                                                            <p className='text-[15px] text-gray-500 font-normal leading-snug break-words whitespace-normal'>
-                                                                {link.description}
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                            <div className='flex flex-row gap-1 items-center cursor-pointer relative group' onClick={() => { setIsResourcesOpen(!isResourcesOpen); setIsPlatformOpen(false); setIsSolutionsOpen(false) }}  >
-                                <div className='absolute bottom-0 left-0 w-full h-0.5 bg-amber-400 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out'></div>
-                                Resources
-                                <ChevronDownIcon className='w-4 h-4' />
-                            </div>
-                            <div ref={resourcesDropdownRef} className={`absolute max-w-7xl w-[90%] px-2.5 sm:px-0 mx-auto h-full z-50 top-[70px] left-1/2 -translate-x-1/2 rounded-sm transition-all duration-500 ease-out transform origin-top ${isResourcesOpen ? 'opacity-100 scale-100 max-h-max' : 'opacity-0 scale-0 max-h-0 overflow-hidden'}`} onClick={(e) => e.stopPropagation()}>
-                                <div className='grid grid-cols-4 gap-8 bg-white rounded-sm p-4'>
-                                    {resourcesData.map((item, index) => (
-                                        <div
-                                            key={index}
-                                            className={`flex flex-col gap-2 border-r bg-white border-gray-200 ${index === resourcesData.length - 1 ? 'border-r-0' : ''} rounded-sm p-2 max-w-xs`}
-                                        >
-                                            <h3 className='text-xs uppercase text-gray-500 pb-5 tracking-wider'>{item.title}</h3>
-                                            <div className='flex flex-col gap-4'>
-                                                {item.links.map((link, idx) => (
-                                                    <div key={idx} className='flex flex-row gap-3 items-start cursor-pointer hover:bg-gray-50 rounded'>
-                                                        <div className='pt-1 text-lg w-5 h-5 flex items-center justify-center'>{link.icon}</div>
-                                                        <div className='flex flex-col gap-1'>
-                                                            <div className='flex flex-row items-center gap-2'>
-                                                                <h4 className='text-base font-bold'>{link.title}</h4>
-                                                                {link.isNew && <span className='text-xs text-blue-600 font-semibold'>NEW</span>}
-                                                            </div>
-                                                            <p className='text-[15px] text-gray-500 font-normal leading-snug break-words whitespace-normal'>
-                                                                {link.description}
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                            <Link href="/" className='flex items-center'>
-                                Enterprise
-                            </Link>
+                          
                             <Link href="/pricing" className='flex items-center'>
                                 Pricing
+                            </Link>
+                            <Link href="/templates" className='flex items-center'>
+                                Templates
                             </Link>
                         </div>
                     </div>
@@ -493,8 +428,8 @@ const Navbar = () => {
                         </Button>
                     </div>
                 </div>
-                <div className={`absolute top-[60px] left-0 right-0 bg-amber-700 z-50 ${isMobileMenuOpen ? "h-screen transition-all duration-300 ease-out opacity-100 transform translate-y-0" : "h-0 transition-all duration-300 ease-out opacity-0 pointer-events-none transform -translate-y-4"}`} onClick={() => setIsMobileMenuOpen(false)}>
-                    <MobileNavbar platformData={platformData} solutionsData={solutionsData} resourcesData={resourcesData} />
+                <div className={`absolute top-[60px] left-0 right-0 bg-amber-700 z-50 ${isMobileMenuOpen ? "h-screen transition-all duration-300 ease-out opacity-100 transform translate-y-0" : "h-0 transition-all duration-300 ease-out opacity-0 pointer-events-none transform -translate-y-4"}`}>
+                    <MobileNavbar platformData={platformData} />
                 </div>
             </Container>
         </FullContainer>
@@ -503,10 +438,8 @@ const Navbar = () => {
 
 export default Navbar
 
-const MobileNavbar = ({ platformData, solutionsData, resourcesData }) => {
+const MobileNavbar = ({ platformData }) => {
     const [isPlatformOpen, setIsPlatformOpen] = useState(false);
-    const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
-    const [isResourcesOpen, setIsResourcesOpen] = useState(false);
 
     return (
         <div className="bg-white w-full h-screen flex flex-col overflow-y-auto pb-64">
@@ -514,7 +447,7 @@ const MobileNavbar = ({ platformData, solutionsData, resourcesData }) => {
                 {/* Platform Dropdown */}
                 <button
                     className="text-blue-600 px-6 py-4 text-base border-b border-gray-200 flex items-center justify-between w-full text-left"
-                    onClick={() => { setIsPlatformOpen(!isPlatformOpen); setIsSolutionsOpen(false); setIsResourcesOpen(false) }}
+                    onClick={() => { setIsPlatformOpen(!isPlatformOpen); }}
                 >
                     Platform <span className="text-gray-400"><ChevronDownIcon className={`w-4 h-4 transition-transform duration-300 ease-out ${isPlatformOpen ? 'rotate-180' : ''}`} /></span>
                 </button>
@@ -541,68 +474,10 @@ const MobileNavbar = ({ platformData, solutionsData, resourcesData }) => {
                     ))}
                 </div>
 
-                {/* Solutions Dropdown */}
-                <button
-                    className="px-6 py-4 text-base border-b border-gray-200 flex items-center justify-between w-full text-left"
-                    onClick={() => { setIsSolutionsOpen(!isSolutionsOpen); setIsPlatformOpen(false); setIsResourcesOpen(false) }}
-                >
-                    Solutions <span className="text-gray-400"><ChevronDownIcon className={`w-4 h-4 transition-transform duration-300 ease-out ${isSolutionsOpen ? 'rotate-180' : ''}`} /></span>
-                </button>
-                <div className={`bg-gray-50 px-6 py-2 border-b border-gray-200 transform transition-all duration-500 ease-out overflow-hidden ${isSolutionsOpen ? 'max-h-screen translate-y-0 opacity-100' : 'max-h-0 -translate-y-2 opacity-0'}`}>
-                    {solutionsData.map((section, idx) => (
-                        <div key={idx} className="mb-4">
-                            <div className="text-xs uppercase text-gray-500 pb-2 tracking-wider">{section.title}</div>
-                            <div className="flex flex-col gap-2">
-                                {section.links.map((link, lidx) => (
-                                    <a
-                                        key={lidx}
-                                        href={link.link}
-                                        className="flex items-start gap-2 py-2 rounded hover:bg-white transition-colors duration-200"
-                                    >
-                                        <span className="pt-1 text-lg w-5 h-5 flex items-center justify-center">{link.icon}</span>
-                                        <span className="flex flex-col">
-                                            <span className="font-semibold text-base flex items-center gap-1">{link.title}{link.isNew && <span className="text-xs text-blue-600 font-semibold ml-1">NEW</span>}</span>
-                                            {link.description && <span className="text-xs text-gray-500 leading-tight">{link.description}</span>}
-                                        </span>
-                                    </a>
-                                ))}
-                            </div>
-                        </div>
-                    ))}
-                </div>
-
-                {/* Resources Dropdown */}
-                <button
-                    className="px-6 py-4 text-base border-b border-gray-200 flex items-center justify-between w-full text-left"
-                    onClick={() => { setIsResourcesOpen(!isResourcesOpen); setIsPlatformOpen(false); setIsSolutionsOpen(false) }}
-                >
-                    Resources <span className="text-gray-400"><ChevronDownIcon className={`w-4 h-4 transition-transform duration-300 ease-out ${isResourcesOpen ? 'rotate-180' : ''}`} /></span>
-                </button>
-                <div className={`bg-gray-50 px-6 py-2 border-b border-gray-200 transform transition-all duration-500 ease-out overflow-hidden ${isResourcesOpen ? 'max-h-screen translate-y-0 opacity-100' : 'max-h-0 -translate-y-2 opacity-0'}`}>
-                    {resourcesData.map((section, idx) => (
-                        <div key={idx} className="mb-4">
-                            <div className="text-xs uppercase text-gray-500 pb-2 tracking-wider">{section.title}</div>
-                            <div className="flex flex-col gap-2">
-                                {section.links.map((link, lidx) => (
-                                    <a
-                                        key={lidx}
-                                        href={link.link}
-                                        className="flex items-start gap-2 py-2 rounded hover:bg-white transition-colors duration-200"
-                                    >
-                                        <span className="pt-1 text-lg w-5 h-5 flex items-center justify-center">{link.icon}</span>
-                                        <span className="flex flex-col">
-                                            <span className="font-semibold text-base flex items-center gap-1">{link.title}{link.isNew && <span className="text-xs text-blue-600 font-semibold ml-1">NEW</span>}</span>
-                                            {link.description && <span className="text-xs text-gray-500 leading-tight">{link.description}</span>}
-                                        </span>
-                                    </a>
-                                ))}
-                            </div>
-                        </div>
-                    ))}
-                </div>
-
-                <a href="#" className="px-6 py-4 text-base border-b border-gray-200 transition-colors duration-200 hover:bg-gray-50">Enterprise</a>
+                {/* Pricing Link */}
                 <a href="/pricing" className="px-6 py-4 text-base border-b border-gray-200 transition-colors duration-200 hover:bg-gray-50">Pricing</a>
+                {/* Templates Link */}
+                <a href="/templates" className="px-6 py-4 text-base border-b border-gray-200 transition-colors duration-200 hover:bg-gray-50">Templates</a>
             </div>
         </div>
     )
