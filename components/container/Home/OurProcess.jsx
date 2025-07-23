@@ -4,6 +4,7 @@ import { PlayIcon, PauseIcon } from 'lucide-react';
 import FullContainer from '../../common/FullContainer';
 import Container from '../../common/Container';
 
+
 const projects = [
     { name: 'Project 1', image: '/st-images/download (11).png' },
     { name: 'Project 2', image: '/st-images/download (10).png' },
@@ -31,23 +32,23 @@ const projects = [
 
 const processSteps = [
     {
-        title: 'Design and build',
-        description: 'Designers can take control of HTML, CSS, and JavaScript in a visual canvas — while marketers can work with pre-made, design-approved building blocks.',
+        title: 'Launch from repo',
+        description: 'Launch your site in minutes with a template or start from scratch with a blank canvas.',
         icon: '/st-images/step1.svg',
     },
     {
-        title: 'Publish and edit',
-        description: "Choose how you want to add, edit, and update content at scale with Sitebuilderz's CMS: visually in our platform or programmatically through our headless APIs.",
+        title: 'Build fast with templates',
+        description: "Choose from 100+ templates and launch your site in minutes.",
         icon: '/st-images/step2.svg',
     },
     {
-        title: 'Analyze and optimize',
-        description: 'Transform your site into your most valuable marketing asset with native tools for AI-powered personalization, A/B testing, SEO, localization, and more.',
+        title: 'Edit and optimize',
+        description: 'Deliver web experiences that get results with built-in tools for analytics, A/B testing, AI-driven personalization, and SEO.',
         icon: '/st-images/step3.svg',
     },
     {
-        title: 'Scale and collaborate',
-        description: '15,000 websites are published with Sitebuilderz every hour. Confidently scale your site with tools for hosting, security, compliance, and publishing — plus connect to your tech stack with integrations and APIs.',
+        title: 'Boost Visibility. Dominate Google',
+        description: 'Tools to support your growth — without sacrificing speed, quality, or security.',
         icon: '/st-images/step4.svg',
     },
 ];
