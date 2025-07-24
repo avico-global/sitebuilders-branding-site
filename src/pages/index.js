@@ -12,11 +12,15 @@ import BoostVisibilityDominateGoogle from "../../components/container/Home/Boost
 import ScaleAndCollaborate from "../../components/container/Home/ScaleAndCollaborate";
 import FAQs from "../../components/container/Home/FAQs";
 import Banner from "../../components/container/Home/Banner";
+import WhoWeAre from "../../components/container/Home/WhoWeAre";
+import TopSite from "../../components/container/Home/TopSite";
 
 export default function Home() {
   return (
     <Layout>
       <Banner />
+      <WhoWeAre />
+      <TopSite />
       <Hero />
       <OurProcess />
       <ScrollNavbar />
