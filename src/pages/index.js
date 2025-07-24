@@ -11,10 +11,12 @@ import ImageSlider from "../../components/ui/ImageSlider";
 import BoostVisibilityDominateGoogle from "../../components/container/Home/BoostVisibilityDominateGoogle";
 import ScaleAndCollaborate from "../../components/container/Home/ScaleAndCollaborate";
 import FAQs from "../../components/container/Home/FAQs";
+import Banner from "../../components/container/Home/Banner";
 
 export default function Home() {
   return (
     <Layout>
+      <Banner />
       <Hero />
       <OurProcess />
       <ScrollNavbar />
