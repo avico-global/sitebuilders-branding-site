@@ -6,8 +6,8 @@
 
   export default function Banner() {
     return (
-      <FullContainer className='py-20 mt-10 md:mt-16 bg-[#f8f9fb]'>   
-      <Container className='grid grid-cols-1 md:grid-cols-2 items-start justify-between lg:py-16 '>
+      <FullContainer className='py-5 mt-16 bg-[#f8f9fb]'>   
+      <Container className='grid grid-cols-1 md:grid-cols-2 items-start justify-between lg:py-12 '>
         <div className='w-full'>
         <h1 className="text-4xl md:text-6xl font-[600] m-0">Build a Website with<br />Google Sites</h1>
         <p className="text-xl mt-8 mb-10 text-[#222]">
