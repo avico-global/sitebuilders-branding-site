@@ -35,8 +35,8 @@ export default function Process({ id }) {
 
     return (
         <div id={id}>
-            <FullContainer className=" lg:py-9">
-                <Container className="mx-auto text-start py-24 lg:py-32">
+                    <FullContainer spacing="medium">
+        <Container spacing="large" className="mx-auto text-start">
                     {/* Main Headline */}
                     <Heading2 className="text-5xl font-bold text-black mb-6 max-w-3xl">
                         {processData.title}

@@ -349,9 +349,9 @@ const Navbar = () => {
 
 
     return (
-        <FullContainer className='border-b border-gray-200 fixed flex items-center top-0 left-0 right-0 z-60 !h-fit bg-white min-h-[63px]'>
+        <FullContainer className='border-b border-gray-200 fixed flex items-center top-0 left-0 right-0 z-60 !h-fit !py-0 bg-white min-h-[63px]'>
             <div className={`absolute top-[63px] left-0 right-0 h-screen bg-black/60 z-50 ${isPlatformOpen || isSolutionsOpen || isResourcesOpen ? "" : "hidden"}`} />
-            <Container className="!px-0 py-0 h-full flex flex-col justify-center">
+            <Container className="!px-0 !py-2 lg:!py-5 h-full flex flex-col justify-center">
                 <div className='flex justify-between items-center py-4 md:py-1 '>
                     {/* Left side */}
                     <div className='flex flex-row gap-4 items-center min-w-0 '>
@@ -377,7 +377,7 @@ const Navbar = () => {
                                             className={`flex flex-col gap-2 border-r bg-white border-gray-200 ${index === platformData.length - 1 ? 'border-r-0' : ''} rounded-sm p-2 max-w-xs`}
                                         >
                                             <h3 className='text-xs uppercase text-gray-500 pb-5 tracking-wider'>{item.title}</h3>
-                                            <div className='flex flex-col gap-4 '>   
+                                            <div className='flex flex-col gap-4 '>
                                                 {item.links.map((link, idx) => (
                                                     <Link href={link.link} key={idx} className='flex flex-row gap-3 items-start cursor-pointer hover:bg-gray-50 rounded'>
                                                         <div className='pt-1 text-lg w-5 h-5 flex items-center justify-center'>{link.icon}</div>
@@ -397,7 +397,7 @@ const Navbar = () => {
                                     ))}
                                 </div>
                             </div>
-                          
+
                             <Link href="/pricing" className='flex items-center'>
                                 Pricing
                             </Link>

@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 const Hero = () => {
     return (
-        <FullContainer className='py-20 mt-10 md:mt-16'>
+        <FullContainer  className=''>
             <Container>
                 <div className='flex flex-col items-start'>
                     <div className='flex flex-col justify-between md:col-span-2 '>

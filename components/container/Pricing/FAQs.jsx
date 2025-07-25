@@ -41,7 +41,7 @@ const FAQs = () => {
 
     return (
         <FullContainer>
-            <Container className="max-w-4xl mx-auto py-10 md:py-24">
+            <Container spacing="medium" className="max-w-4xl mx-auto">
                 <Heading2 className="mb-4">Frequently asked questions</Heading2>
                 <p className="text-2xl mb-12 md:mb-24">We're here to help with any questions you have about plans, pricing, and supported features.</p>
                 {faqData.map((group) => (

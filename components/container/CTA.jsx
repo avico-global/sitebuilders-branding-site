@@ -7,7 +7,7 @@ import Button from '../ui/Button'
 const CTA = () => {
   return (
     <FullContainer className="bg-black text-white min-h-screen flex items-center justify-center font-sans">
-      <Container className="flex w-ful  py-10 gap-5 md:gap-16 lg:gap-24 flex-col md:flex-row justify-between">
+      <Container spacing="default" className="flex w-ful  gap-5 md:gap-16 lg:gap-24 flex-col md:flex-row justify-between">
         {/* Left Side */}
         <div className="flex-1 flex flex-col justify-start sm:min-w-[400px]">
           <Heading1 className="mb-8">

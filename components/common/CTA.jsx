@@ -18,7 +18,7 @@ export default function CTA() {
   return (
     <FullContainer className='bg-black'>
       <Container>
-        <div className="w-full bg-black text-white py-20 flex flex-col md:flex-row items-center justify-between gap-12">
+        <div className="w-full bg-black text-white flex flex-col md:flex-row items-center justify-between gap-12">
           {/* Left Side */}
           <div className="flex-1 max-w-xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">Get started<br />for free</h1>

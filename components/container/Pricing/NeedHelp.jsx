@@ -8,7 +8,7 @@ import Heading2 from '../../ui/Heading2'
 
 export default function NeedHelp() {
     return (
-        <FullContainer className="bg-white py-24">
+        <FullContainer spacing="large" className="bg-white">
             <Container>
                 <Heading2 className="text-black mb-16 text-center md:text-left">Need more help?</Heading2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto">

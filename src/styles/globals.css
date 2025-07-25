@@ -35,7 +35,6 @@
   font-style: normal;
 }
 
-
 @theme {
     --color-primary: #E24E28;   
     --font-inter: "Inter", sans-serif;
@@ -49,6 +48,7 @@
     --font-weight-black: 900;
     --screen-1.5xl: 1400px;
 }
+
 .root{
   --primary-color: var(--color-primary);
 }
@@ -59,12 +59,14 @@
     }
 }
 
-/* Hide scrollbar for video slider */
-.scrollbar-hide {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
-}
-
-.scrollbar-hide::-webkit-scrollbar {
-  display: none;  /* Safari and Chrome */
+@layer utilities {
+  /* Hide scrollbar utilities using Tailwind approach */
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
 }

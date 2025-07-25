@@ -39,7 +39,7 @@ export default function SiteManagement() {
       ];
 
     return (
-        <div className="bg-white text-black py-20">
+        <div className="bg-white text-black">
             <FullContainer>
                 <Container>
                     <div className="grid grid-cols-1 md:grid-cols-2 items-end justify-end mb-16">

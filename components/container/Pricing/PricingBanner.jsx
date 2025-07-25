@@ -33,7 +33,7 @@ export default function PricingBanner() {
   console.log(pricingdata)
   return (
     <FullContainer className='bg-black text-white'>
-      <Container className=' py-24'>
+              <Container spacing="large">
         <Heading1 className='' >
           Our pricing
         </Heading1>

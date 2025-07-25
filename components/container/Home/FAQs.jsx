@@ -63,7 +63,7 @@ const FAQs = () => {
   }
 
   return (
-    <FullContainer className="bg-gradient-to-br from-gray-50 via-white to-gray-50 py-24">
+    <FullContainer className="bg-gradient-to-br from-gray-50 via-white to-gray-50">
       <Container>
         <div className="max-w-5xl mx-auto">
           {/* Header Section */}
@@ -101,7 +101,7 @@ const FAQs = () => {
                 </div>
 
                 <button
-                  className="relative w-full px-8 py-6 text-left flex justify-between items-start hover:bg-gray-50/50 transition-all duration-300 rounded-2xl"
+                  className="relative w-full px-8 py-4 text-left flex justify-between items-start hover:bg-gray-50/50 transition-all duration-300 rounded-2xl"
                   onClick={() => toggleFAQ(index)}
                 >
                   <div className="flex-1 pr-6">
@@ -109,7 +109,7 @@ const FAQs = () => {
                       {faq.question}
                     </span>
                   </div>
-                  <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-500 ${
+                  <div className={`flex-shrink-0 rounded-full flex items-center justify-center transition-all duration-500 ${
                     openIndex === index 
                       ? 'bg-[#E24E28] text-white rotate-180' 
                       : 'bg-gray-100 text-gray-500 group-hover:bg-[#E24E28] group-hover:text-white'

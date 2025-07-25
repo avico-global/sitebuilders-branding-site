@@ -131,7 +131,7 @@ const VideoSlider = () => {
     };
 
     return (
-        <FullContainer className="w-full overflow-hidden py-28 pb-36 bg-gray-100">
+        <FullContainer spacing="large" className="w-full overflow-hidden pb-36 bg-gray-100">
             <Container>
                 <div className="flex flex-col md:flex-row gap-4 md:gap-0 justify-between items-end w-full py-12">
                     <Heading2 className="  max-w-2xl">

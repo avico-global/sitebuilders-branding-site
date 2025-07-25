@@ -14,7 +14,7 @@ export default function DivOverFlow({ top, theme, left, right }) {
                     {top?.map((item, index) => (
 
                     <FullContainer key={index} className={`${theme === "light" ? "bg-white text-black" : "bg-black text-white"} `}>
-                        <Container className='py-10 lg:py-18'>
+                        <Container spacing="medium">
                             <Heading2 className={`max-w-[1000px] ${theme === "light" ? "text-black" : "text-white"}`}>{item?.title}</Heading2>
                             <p className={`text-xl md:text-[26px] mb-8 ${theme === "light" ? "text-gray-900" : "text-gray-100"}`}>{item?.desc}</p>
                         </Container>

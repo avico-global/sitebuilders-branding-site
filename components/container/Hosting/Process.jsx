@@ -8,7 +8,7 @@ import Heading2 from '../../ui/Heading2'
 export default function Process({ id }) {
     return (
         <div id={id}>
-            <FullContainer className="py-16 bg-white">
+            <FullContainer spacing="medium" className="bg-white">
                 <Container className="">
                     {/* Headline and description */}
                     <Heading2 className=" mb-4">Reliable, fast hosting</Heading2>

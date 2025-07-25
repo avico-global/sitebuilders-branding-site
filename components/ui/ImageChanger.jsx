@@ -16,7 +16,7 @@ const ImageChanger = ({ theme, data, animationData }) => {
                 <FullContainer key={index} className={`pb-10  ${theme === "light" ? "bg-white text-black" : "bg-black text-white"}`}>
 
                     <FullContainer className={`${theme === "light" ? "bg-white text-black" : "bg-black text-white"} `}>
-                        <Container className='py-10 lg:py-18'>
+                        <Container spacing="medium">
                             <Heading2 className={`max-w-[1000px] ${theme === "light" ? "text-black" : "text-white"}`}>{item.title}</Heading2>
                         </Container>
                     </FullContainer>

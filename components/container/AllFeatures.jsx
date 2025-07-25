@@ -23,7 +23,7 @@ import Link from 'next/link'
 
 export default function AllFeatures() {
     return (
-        <FullContainer className="bg-[#F0F0F0] py-16 ">
+        <FullContainer spacing="medium" className="bg-[#F0F0F0]">
             <Container className="">
                 {/* Header Section */}
                 <div className="text-center mb-16">

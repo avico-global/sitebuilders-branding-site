@@ -49,8 +49,7 @@ const ImageSlider = () => {
             <div className="overflow-hidden w-full bg-[#111] h-[320px] relative ">
                 <div
                     ref={sliderRef}
-                    className="flex w-max will-change-transform"
-                    style={{ transition: 'transform 0.1s linear' }}
+                    className="flex w-max will-change-transform transition-transform duration-100 ease-linear"
                 >
                     {/* Duplicate images for seamless looping */}
                     {[...images, ...images].map((src, idx) => (

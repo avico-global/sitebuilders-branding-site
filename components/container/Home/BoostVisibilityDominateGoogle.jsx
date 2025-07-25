@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react'
 import FullContainer from '../../common/FullContainer'
 import Container from '../../common/Container'
-import Heading1 from '../../ui/Heading1'
 import Heading2 from '../../ui/Heading2'
+import Paragraph1 from '../../ui/Paragraph1'
 
 const BoostVisibilityDominateGoogle = ({ id }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -61,14 +61,14 @@ const BoostVisibilityDominateGoogle = ({ id }) => {
     return (
         <div id={id}>
             <FullContainer className='bg-[#F0F0F0]'>
-                <Container className='!py-16'>
-                    <div className='flex flex-col lg:flex-row items-start lg:items-end justify-center pt-20 md:pt-32 lg:pt-40 gap-6 lg:gap-0'>
-                        <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-[80px] leading-tight font-bold lg:w-[120%] lg:pr-10 xl:pr-0'>Boost Visibility. Dominate Google</h2>
-                        <div className='lg:pl-28 text-sm sm:text-base md:text-lg lg:text-[18px] lg:w-[90%] lg:pt-10'>
+                <Container className=''>
+                    <div className='flex flex-col lg:flex-row items-start lg:items-end justify-center  pb-10 gap-6 lg:gap-0'>
+                        <Heading2 className=''>Boost Visibility. Dominate Google</Heading2>
+                        <Paragraph1 className='lg:pl-28 text-sm sm:text-base md:text-lg lg:text-[18px] lg:w-[90%] lg:pt-10'>
                             Tools to support your growth — without sacrificing speed, quality, or security.
-                        </div>
+                        </Paragraph1>
                     </div>
-                     <div className='hidden lg:flex flex-row items-start py-28 justify-center '>
+                     <div className='hidden lg:flex flex-row items-start justify-center '>
                         <div className='w-[122%] sticky top-[120px] border h-screen overflow-hidden items-start rounded-lg bg-black'>
                             <div className=' w-full sticky top-[30px] '>
                                 <video 
@@ -86,7 +86,7 @@ const BoostVisibilityDominateGoogle = ({ id }) => {
                                     key={index} 
                                     ref={el => desktopItemRefs.current[index] = el}
                                     data-index={index}
-                                    className='py-64'
+                                    className='py-16 md:py-20'
                                 >
                                     <Heading2 className=' !text-[40px] pb-5'>{item.title}</Heading2>
                                     <p className='text-[18px]'>{item.desc}</p>
@@ -100,7 +100,7 @@ const BoostVisibilityDominateGoogle = ({ id }) => {
                                 <div 
                                     key={index} 
                                     data-index={index}
-                                    className='py-5'
+                                    className='py-4 md:py-6'
                                 >
                                     <div>
                                         <video src={item.video} autoPlay loop muted className='w-full h-full my-10 aspect-[16/10.5] rounded-md object-cover' />

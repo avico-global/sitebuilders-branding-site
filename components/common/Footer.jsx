@@ -44,7 +44,7 @@ const footerData = [
 const Footer = () => {
   return (
     <FullContainer className="w-full bg-black text-gray-200">
-      <Container className="container mx-auto py-16">
+              <Container spacing="medium" className="container mx-auto">
         <nav aria-label="Footer" className="w-full">
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-y-10 gap-x-8">
             {footerData.map((section) => (

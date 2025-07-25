@@ -3,6 +3,9 @@ import Image from 'next/image'
 import { PlayIcon, PauseIcon } from 'lucide-react';
 import FullContainer from '../../common/FullContainer';
 import Container from '../../common/Container';
+import Paragraph1 from '../../ui/Paragraph1';
+import Paragraph2 from '../../ui/Paragraph2';
+import Paragraph3 from '../../ui/Paragraph3';
 
 
 const projects = [
@@ -73,8 +76,8 @@ const OurProcess = () => {
         setVideoStats(VideoStats === 'play' ? 'pause' : 'play');
     }
     return (
-        <FullContainer className=''>
-            <Container>
+        <FullContainer className=' '>
+            <Container className=' border-b border ] border-amber-400'>
                 {/* <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-10  items-center justify-items-center space-y-2 sm:space-y-4 lg:space-y-6">
                     {projects.map((project, idx) => (
                         <div key={idx} className="flex flex-col items-center h-[50px] overflow-hidden justify-center">
@@ -88,14 +91,16 @@ const OurProcess = () => {
                         </div>
                     ))}
                 </div> */}
-                <div className='w-full relative pt-7 aspect-video'>
-                    <video
-                        src="/videos/Video-sitebuilderz/Project.mp4"
-                        ref={videoRef}
-                        muted
-                        loop
-                        className='w-full h-full object-contain rounded-lg'
-                    />
+                <div className='w-full relative  border border-red-400'>
+                    <div className="border border-blue-400  w-full">
+                        <video
+                            src="/videos/Video-sitebuilderz/Project.mp4"
+                            ref={videoRef}
+                            muted
+                            loop
+                            className='w-full h-full object-cover rounded-lg'
+                        />
+                    </div>
                     {/* <div className='absolute bottom-0 left-0 w-full h-[75%] bg-gradient-to-b from-transparent to-white rounded-lg'></div> */}
                     <div className="absolute top-[40%] left-[-5.5%] w-[15%] overflow-visible z-10">
                         <Image
@@ -125,7 +130,7 @@ const OurProcess = () => {
                         </div>
                     </div>
                 </div>
-                <div className='mt-10'>
+                <div className='pt-10'>
                     {/* Process Section Start */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4  gap-12 ">
                         {processSteps.map((step, idx) => (
@@ -133,8 +138,8 @@ const OurProcess = () => {
                                 <div className="mb-[12px]">
                                     <Image src={step.icon} alt={`${step.title} icon`} width={32} height={32} />
                                 </div>
-                                <div className="font-bold text-lg mb-2">{step.title}</div>
-                                <div className="text-gray-600 text-base">{step.description}</div>
+                                <Paragraph2 className="font-bold">{step.title}</Paragraph2>
+                                <Paragraph3 className="">{step.description}</Paragraph3>
                             </div>
                         ))}
                     </div>

@@ -40,8 +40,8 @@ const features = [
 
 const Enterprise = () => {
     return (
-        <FullContainer className="enterprise-section bg-black text-white py-20 px-4">
-            <Container className="!py-20">
+                <FullContainer spacing="large" className="enterprise-section bg-black text-white px-4">
+        <Container spacing="large">
                 <div className='flex flex-col lg:flex-row items-end justify-between'>
                     <div className='flex flex-col items-start justify-start'>
                         <h1 className="text-5xl font-bold mb-4 leading-tight">

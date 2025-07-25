@@ -54,7 +54,7 @@ export default function ScaleSecurity() {
     ];
 
     return (
-        <div className="bg-black text-white py-20">
+        <div className="bg-black text-white">
             <FullContainer>
                 <Container>
                     <div className="text-start mb-16">

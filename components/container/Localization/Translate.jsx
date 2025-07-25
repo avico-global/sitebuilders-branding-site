@@ -59,21 +59,21 @@ const Translate = () => {
     }, []);
   return (
     <FullContainer className='bg-[#F0F0F0]'>
-    <Container className='!py-16'>
+            <Container spacing="medium">
         <div className='flex flex-col lg:flex-row items-start lg:items-end justify-center pt-20 md:pt-32 lg:pt-40 gap-6 lg:gap-0'>
             <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-[80px] leading-tight font-bold lg:w-[120%] lg:pr-10 xl:pr-0'>Scale your site and business</h2>
             <div className='lg:pl-28 text-sm sm:text-base md:text-lg lg:text-[18px] lg:w-[90%] lg:pt-10'>
                 Tools to support your growth — without sacrificing speed, quality, or security.
             </div>
         </div>
-         <div className='hidden lg:flex flex-row items-start py-28 justify-center '>
+                     <div className='hidden lg:flex flex-row items-start justify-center '>
             <div className='flex flex-col items-center justify-center w-[88%] pr-24'>
                 {data.map((item, index) => (
                     <div 
                         key={index} 
                         ref={el => desktopItemRefs.current[index] = el}
                         data-index={index}
-                        className='py-64'
+                        className='py-16 md:py-20'
                     >
                         <Heading2 className=' !text-[40px] pb-5'>{item.title}</Heading2>
                         <p className='text-[18px]'>{item.desc}</p>
@@ -98,7 +98,7 @@ const Translate = () => {
                     <div 
                         key={index} 
                         data-index={index}
-                        className='py-5'
+                        className='py-4 md:py-6'
                     >
                         <div>
                             <video src={item.video} autoPlay loop muted className='w-full h-full my-10 aspect-[16/10.5] rounded-md object-cover' />
