@@ -77,7 +77,7 @@ const OurProcess = () => {
     }
     return (
         <FullContainer className=' '>
-            <Container className=' border-b border ] border-amber-400'>
+            <Container className=' border-b border-gray-300'>
                 {/* <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-10  items-center justify-items-center space-y-2 sm:space-y-4 lg:space-y-6">
                     {projects.map((project, idx) => (
                         <div key={idx} className="flex flex-col items-center h-[50px] overflow-hidden justify-center">
@@ -91,8 +91,8 @@ const OurProcess = () => {
                         </div>
                     ))}
                 </div> */}
-                <div className='w-full relative  border border-red-400'>
-                    <div className="border border-blue-400  w-full">
+                <div className='w-full relative'>
+                    <div className="w-full">
                         <video
                             src="/videos/Video-sitebuilderz/Project.mp4"
                             ref={videoRef}

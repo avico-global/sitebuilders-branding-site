@@ -21,7 +21,7 @@ export default function Home() {
       <Banner />
       <WhoWeAre />
       <TopSite />
-      <Hero />
+      {/* <Hero /> */}
       <OurProcess />
       <ScrollNavbar />
       <LaunchFromRepo id="design-build" />
