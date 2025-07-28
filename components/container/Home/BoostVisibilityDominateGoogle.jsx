@@ -7,7 +7,7 @@ import Paragraph1 from '../../ui/Paragraph1'
 const BoostVisibilityDominateGoogle = ({ id }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const desktopItemRefs = useRef([]);
-    
+
     const data = [
         {
             title: "Collaboration and control",
@@ -68,22 +68,22 @@ const BoostVisibilityDominateGoogle = ({ id }) => {
                             Tools to support your growth — without sacrificing speed, quality, or security.
                         </Paragraph1>
                     </div>
-                     <div className='hidden lg:flex flex-row items-start justify-center '>
+                    <div className='hidden lg:flex flex-row items-start justify-center '>
                         <div className='w-[122%] sticky top-[120px] border h-screen overflow-hidden items-start rounded-lg bg-black'>
-                            <div className=' w-full sticky top-[30px] '>
-                                <video 
-                                    src={data[currentIndex].video} 
-                                    autoPlay 
-                                    loop 
-                                    muted 
-                                    className='w-full h-full object-cover' 
+                            <div className=' w-full sticky top-[35px] '>
+                                <video
+                                    src={data[currentIndex].video}
+                                    autoPlay
+                                    loop
+                                    muted
+                                    className='w-full h-full object-cover'
                                 />
                             </div>
                         </div>
-                        <div className='flex flex-col items-center justify-center w-[88%] pl-24'>
+                        <div className='flex flex-col  gap-36 pb-24 items-center justify-center w-[88%] pl-24'>
                             {data.map((item, index) => (
-                                <div 
-                                    key={index} 
+                                <div
+                                    key={index}
                                     ref={el => desktopItemRefs.current[index] = el}
                                     data-index={index}
                                     className='py-16 md:py-20'
@@ -92,13 +92,13 @@ const BoostVisibilityDominateGoogle = ({ id }) => {
                                     <p className='text-[18px]'>{item.desc}</p>
                                 </div>
                             ))}
-                        </div> 
+                        </div>
                     </div>
                     <div>
-                    <div className='flex lg:hidden flex-col items-start justify-start w-full '>
+                        <div className='flex lg:hidden flex-col items-start justify-start w-full '>
                             {data.map((item, index) => (
-                                <div 
-                                    key={index} 
+                                <div
+                                    key={index}
                                     data-index={index}
                                     className='py-4 md:py-6'
                                 >
@@ -109,7 +109,7 @@ const BoostVisibilityDominateGoogle = ({ id }) => {
                                     <p className='text-base'>{item.desc}</p>
                                 </div>
                             ))}
-                        </div> 
+                        </div>
                     </div>
                 </Container>
             </FullContainer>

@@ -22,15 +22,15 @@ export default function Home() {
       <WhoWeAre />
       <TopSite />
       {/* <Hero /> */}
-      <OurProcess />
+      {/* <OurProcess /> */}
       <ScrollNavbar />
       <LaunchFromRepo id="design-build" />
       <BuildFastWithTemplates id="publish-edit" />
       <EditAndOptimize id="analyze-optimize" />
       <BoostVisibilityDominateGoogle id="scale-collaborate" />
-      <ScaleAndCollaborate id="scale-collaborate" />
+      {/* <ScaleAndCollaborate id="scale-collaborate" /> */}
       <FAQs />
-      <CTA />
+      {/* <CTA /> */}
       <ImageSlider />
     </Layout>
   );
