@@ -28,34 +28,6 @@ const FAQs = () => {
       question: "What AI features are available in Sitebuilderz?",
       answer: "Sitebuilderz includes AI-powered tools like the AI Assistant for layout and component generation, AI-driven personalization for optimization, and intelligent content editing. These features help accelerate your workflow while maintaining brand consistency and design quality."
     },
-    {
-      question: "Can I use my own domain with Sitebuilderz?",
-      answer: "Yes! The free Starter plan includes a Sitebuilderz.io domain, while paid plans allow you to connect custom domains. You can also set up subdirectories for localization (like .com/es/) to maintain domain authority across different markets."
-    },
-    {
-      question: "How does Sitebuilderz handle team collaboration?",
-      answer: "Sitebuilderz supports team collaboration through staging sites, guest access for clients, commenting systems, and edit modes. Workspace plans include multiple seats and allow for efficient content collaboration without creating bottlenecks in your workflow."
-    },
-    {
-      question: "What analytics and optimization tools are included?",
-      answer: "Sitebuilderz Analyze provides native visitor behavior insights, while Sitebuilderz Optimize offers A/B testing and AI-powered personalization tools. Built-in SEO controls help improve discoverability, and all data is unified for easy analysis and optimization."
-    },
-    {
-      question: "Is Sitebuilderz suitable for e-commerce websites?",
-      answer: "Yes, Sitebuilderz offers specialized e-commerce plans with features designed for online stores. These include product management, payment processing, inventory tracking, and e-commerce-specific hosting optimizations to ensure fast, secure shopping experiences."
-    },
-    {
-      question: "What support options are available?",
-      answer: "Free plan users get community support, while paid plans include priority support. Enterprise customers receive dedicated customer success managers, guaranteed SLAs, and enterprise-level support to ensure your success with the platform."
-    },
-    {
-      question: "Can I export my code from Sitebuilderz?",
-      answer: "Yes, Sitebuilderz offers code export capabilities on certain plans, allowing you to take your site code with you if needed. This gives you flexibility while still benefiting from our visual design tools and hosting infrastructure."
-    },
-    {
-      question: "How does Sitebuilderz ensure website performance?",
-      answer: "Sitebuilderz uses enterprise-grade hosting infrastructure with global CDN, automatic image optimization, and built-in performance monitoring. Our platform is designed to handle high traffic loads with surge protection and scalable bandwidth options."
-    }
   ]
 
   const toggleFAQ = (index) => {

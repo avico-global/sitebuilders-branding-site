@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import FullContainer from '../../common/FullContainer'
 import Container from '../../common/Container'
 import Image from 'next/image'
 import Link from 'next/link'
+import Button from '../../ui/Button'
 
 export default function TopSite() {
+    const [showAll, setShowAll] = useState(false);
+    
     const brandsSlider1 = [
         {
             name: 'Fashion',
@@ -88,6 +91,8 @@ export default function TopSite() {
         },
     ]
 
+    // Show only first 6 items initially, or all items if showAll is true
+    const displayedItems = showAll ? brandsSlider1 : brandsSlider1.slice(0, 6);
 
     return (
         <FullContainer className=' bg-white'>
@@ -96,22 +101,31 @@ export default function TopSite() {
                     <h2 className='text-4xl md:text-5xl font-[600] w-full text-center m-0'>Top No Code Websites</h2>
                     <p className='text-lg mt-8 mb-10 text-[#222] text-center max-w-[850px] '>Check out some of the best websites users have made with Google Sites. It may be a free simple tool, but there are amazing sites all around web built on the platform. Consider this a free resource for inspiration on your next stunning website project or go ahead and purchase a template..</p>
                     <div className=' w-full mx-auto'>
-                        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 space-y-6'>
-                            {brandsSlider1.map((item, index) => (
-                                <Link href={item.href} className='rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300' key={index}>
-                                    <Image src={item.image} alt={item.name} width={1000} height={1000} className='w-full h-auto' />
-                                    <h3 className='text-gray-800 text-[10px] md:text-xs text-center  font-bold'> this site is about {item.name}</h3>
-                                    <h5 className='text-gray-500 text-[10px] md:text-xs text-center w-full'>$99</h5>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7'>
+                            {displayedItems.map((item, index) => (
+                                <Link href={item.href} className='rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-xl transition-all duration-300 h-full flex flex-col' key={index}>
+                                    <div className='flex-shrink-0'>
+                                        <Image src={item.image} alt={item.name} width={1000} height={1000} className='w-full h-auto' />
+                                    </div>
+                                    <div className='flex-grow flex flex-col justify-end p-3'>
+                                        <h3 className='text-gray-800 text-[10px] md:text-xs text-center font-bold mb-1 min-h-[20px]'> this site is about {item.name}</h3>
+                                        <h5 className='text-gray-500 text-[10px] md:text-xs text-center w-full'>$99</h5>
+                                    </div>
                                 </Link>
                             ))}
                         </div>
-                    </div>
-                    <div className='w-full flex flex-col items-center justify-center mt-10' >
-                        <h2 className='text-xl text-[22px] font-[600] w-full text-center m-0'>Discover the professional websites built on Google</h2>
-                        <p className='text-lg mt-6 mb-10 text-[#222] text-center max-w-[850px] '>There are 50+ templates available to buy and use with Google Sites from the online store.</p>
-                        <button className="bg-primary text-white text-xl py-3 px-4 rounded-lg font-medium cursor-pointer mb-6 hover:bg-primary/80 transition">
-                            Browse Google Sites Themes
-                        </button>
+                        
+                        {/* See More/Less Button */}
+                        {brandsSlider1.length > 6 && (
+                            <div className='flex justify-center mt-8'>
+                                <Button 
+                                    onClick={() => setShowAll(!showAll)}
+                                    className=""
+                                >
+                                    {showAll ? 'See Less' : `See More (${brandsSlider1.length - 6} more)`}
+                                </Button>
+                            </div>
+                        )}
                     </div>
                 </div>
             </Container>

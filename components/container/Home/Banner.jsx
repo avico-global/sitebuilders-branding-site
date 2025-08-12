@@ -47,20 +47,34 @@ export default function Banner() {
       <Container spacing="none" className='grid grid-cols-1 md:grid-cols-2 items-center justify-between relative z-10  '>
         <div className={`w-full -mt-14 flex flex-col gap-5 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'}`}>
           <div className={`transition-all duration-700 delay-200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <Heading1>Build a Website with<br />Site Builderz</Heading1>
+            <div className="mb-2">
+              <span className="inline-block bg-gradient-to-r from-primary/10 to-primary/5 text-primary font-semibold text-sm px-4 py-2 rounded-full border border-primary/20">
+                ✨ Revolutionary Website Building
+              </span>
+            </div>
+            <Heading1>Revolutionize Your Workflow<br />with Site Builderz</Heading1>
           </div>
           <div className={`transition-all duration-700 delay-400 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <Paragraph1>
-              Learn how to build a free website on Site Builderz, create an employee intranet, find an amazing theme or just login.
+              Transform your ideas into stunning websites in minutes. Our AI-powered platform combines drag-and-drop simplicity with enterprise-grade features, making professional web development accessible to everyone.
             </Paragraph1>
           </div>
-          <div className={`transition-all duration-700 delay-600 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <button className="bg-primary w-fit text-white text-xl py-3 px-4 rounded-lg font-medium cursor-pointer mb-6 hover:bg-primary/80 transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-              Browse Templates
+          <div className={`flex flex-col sm:flex-row gap-4 transition-all duration-700 delay-600 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+            <button className="bg-primary w-fit text-white text-xl py-4 px-8 rounded-lg font-semibold cursor-pointer hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 hover:shadow-xl flex items-center gap-2">
+              <span>Start Building Free</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </button>
+            <button className="border-2 border-primary/30 text-primary text-lg py-4 px-6 rounded-lg font-medium cursor-pointer hover:bg-primary/5 transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h1m4 0h1m-6 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span>Watch Demo</span>
             </button>
           </div>
           <div className={`flex flex-row flex-wrap items-center gap-2 transition-all duration-700 delay-800 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <span className='text-base md:text-lg text-[#222]'>need a domain first?</span>
+            <span className='text-base md:text-lg text-[#222]'>Need a domain first?</span>
             <Link href="#" className="text-primary font-bold text-base md:text-lg underline hover:text-primary transition-all duration-300 hover:scale-105">
               Search and buy available domain names
             </Link>

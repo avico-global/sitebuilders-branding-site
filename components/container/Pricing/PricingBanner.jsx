@@ -32,7 +32,7 @@ export default function PricingBanner() {
   }, [activeTab, activeplan])
   console.log(pricingdata)
   return (
-    <FullContainer className='bg-black text-white'>
+    <FullContainer className='bg-black text-white py-24'>
               <Container spacing="large">
         <Heading1 className='' >
           Our pricing

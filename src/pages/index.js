@@ -12,15 +12,18 @@ import BoostVisibilityDominateGoogle from "../../components/container/Home/Boost
 import ScaleAndCollaborate from "../../components/container/Home/ScaleAndCollaborate";
 import FAQs from "../../components/container/Home/FAQs";
 import Banner from "../../components/container/Home/Banner";
-import WhoWeAre from "../../components/container/Home/WhoWeAre";
+import KeyFeatures from "../../components/container/Home/KeyFeatures";
 import TopSite from "../../components/container/Home/TopSite";
+import Compinies from "../../components/container/Home/Compinies";
 
 export default function Home() {
   return (
     <Layout>
       <Banner />
-      <WhoWeAre />
+      <KeyFeatures />
       <TopSite />
+      <FAQs />
+      <Compinies />
       {/* <Hero /> */}
       {/* <OurProcess /> */}
       <ScrollNavbar />
@@ -29,7 +32,6 @@ export default function Home() {
       <EditAndOptimize id="analyze-optimize" />
       <BoostVisibilityDominateGoogle id="scale-collaborate" />
       {/* <ScaleAndCollaborate id="scale-collaborate" /> */}
-      <FAQs />
       {/* <CTA /> */}
       <ImageSlider />
     </Layout>
