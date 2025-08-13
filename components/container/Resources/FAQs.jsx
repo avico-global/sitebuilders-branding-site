@@ -8,7 +8,7 @@ const ResourcesFAQs = () => {
     const faqData = {
         general: {
             title: "General Questions",
-            icon: <HelpCircle className="w-6 h-6" />,
+            icon: <HelpCircle className="w-5 h-5" />,
             questions: [
                 {
                     question: "What is Sitebuilderz and how does it work?",
@@ -30,7 +30,7 @@ const ResourcesFAQs = () => {
         },
         pricing: {
             title: "Pricing & Billing",
-            icon: <CreditCard className="w-6 h-6" />,
+            icon: <CreditCard className="w-5 h-5" />,
             questions: [
                 {
                     question: "What are the different pricing plans available?",
@@ -52,7 +52,7 @@ const ResourcesFAQs = () => {
         },
         features: {
             title: "Features & Functionality",
-            icon: <Settings className="w-6 h-6" />,
+            icon: <Settings className="w-5 h-5" />,
             questions: [
                 {
                     question: "What design templates are available?",
@@ -74,7 +74,7 @@ const ResourcesFAQs = () => {
         },
         security: {
             title: "Security & Performance",
-            icon: <Shield className="w-6 h-6" />,
+            icon: <Shield className="w-5 h-5" />,
             questions: [
                 {
                     question: "How secure is my website on Sitebuilderz?",
@@ -96,7 +96,7 @@ const ResourcesFAQs = () => {
         },
         support: {
             title: "Support & Help",
-            icon: <Users className="w-6 h-6" />,
+            icon: <Users className="w-5 h-5" />,
             questions: [
                 {
                     question: "What support options are available?",
@@ -119,7 +119,7 @@ const ResourcesFAQs = () => {
     };
 
     return (
-        <FullContainer>
+        <FullContainer className='py-16 bg-gray-50'>
             <Container>
                 <FAQs 
                     faqData={faqData}
