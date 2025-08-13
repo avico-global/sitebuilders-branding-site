@@ -19,10 +19,10 @@ const AboutCTA = () => {
             Join thousands of creators who trust Sitebuilderz to bring their ideas to life. 
             Start building today with our powerful, intuitive platform.
           </Paragraph1>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="bg-white text-[#E24E28] hover:bg-gray-100">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button className="!bg-white group !text-[#E24E28] hover:bg-gray-100 flex items-center gap-2 border-2 border-white">
               <span>Start Building Free</span>
-              <ArrowRightIcon className="w-4 h-4" />
+              <ArrowRightIcon className="w-4 h-4 group-hover:translate-x-1 transition-all duration-300" />
             </Button>
             <Button className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-[#E24E28]">
               <span>Contact Sales</span>

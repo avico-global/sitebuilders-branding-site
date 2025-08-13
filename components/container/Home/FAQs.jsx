@@ -1,13 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import FullContainer from '../../common/FullContainer'
 import Container from '../../common/Container'
-import Heading2 from '../../ui/Heading2'
-import { ChevronDownIcon, ChevronUpIcon, MessageCircle, BookOpen } from 'lucide-react'
+import FAQs from '../../ui/FAQs'
 
-const FAQs = () => {
-  const [openIndex, setOpenIndex] = useState(null)
-
-  const faqs = [
+const HomeFAQs = () => {
+  const faqData = [
     {
       question: "What is Sitebuilderz and how is it different from other website builders?",
       answer: "Sitebuilderz is an all-in-one website platform that combines visual design tools, a powerful CMS, enterprise-grade hosting, and AI-powered features. Unlike traditional website builders, Sitebuilderz offers a visual-first approach with composable architecture, allowing teams to create sophisticated websites without sacrificing design flexibility or performance."
@@ -30,111 +27,20 @@ const FAQs = () => {
     },
   ]
 
-  const toggleFAQ = (index) => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
-
   return (
-    <FullContainer className="bg-gradient-to-br from-gray-50 via-white to-gray-50">
+    <FullContainer>
       <Container>
-        <div className="max-w-5xl mx-auto">
-          {/* Header Section */}
-          <div className="text-center mb-20">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#E24E28] to-[#E86F50] rounded-2xl mb-6 shadow-lg">
-              <span className="text-2xl">❓</span>
-            </div>
-            <Heading2 className="mb-6 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent">
-              Frequently Asked Questions
-            </Heading2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
-              Everything you need to know about Sitebuilderz. Can't find the answer you're looking for? 
-              Please reach out to our friendly support team.
-            </p>
-          </div>
-          
-          {/* FAQs Grid */}
-          <div className="grid gap-6">
-            {faqs.map((faq, index) => (
-              <div 
-                key={index} 
-                className={`group relative overflow-hidden rounded-2xl border transition-all duration-500 ease-out ${
-                  openIndex === index 
-                    ? 'border-[#E24E28]/30 bg-white shadow-xl shadow-[#E24E28]/10' 
-                    : 'border-gray-200 bg-white hover:border-gray-300 hover:shadow-lg'
-                }`}
-              >
-                {/* Gradient border effect */}
-                <div className={`absolute inset-0 rounded-2xl transition-opacity duration-500 ${
-                  openIndex === index 
-                    ? 'opacity-100' 
-                    : 'opacity-0'
-                }`}>
-                  <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#E24E28]/10 via-[#E86F50]/10 to-[#E24E28]/10"></div>
-                </div>
-
-                <button
-                  className="relative w-full px-8 py-4 text-left flex justify-between items-start hover:bg-gray-50/50 transition-all duration-300 rounded-2xl"
-                  onClick={() => toggleFAQ(index)}
-                >
-                  <div className="flex-1 pr-6">
-                    <span className="font-semibold text-lg text-gray-900 leading-relaxed group-hover:text-[#E24E28] transition-colors duration-300">
-                      {faq.question}
-                    </span>
-                  </div>
-                  <div className={`flex-shrink-0 rounded-full flex items-center justify-center transition-all duration-500 ${
-                    openIndex === index 
-                      ? 'bg-[#E24E28] text-white rotate-180' 
-                      : 'bg-gray-100 text-gray-500 group-hover:bg-[#E24E28] group-hover:text-white'
-                  }`}>
-                    {openIndex === index ? (
-                      <ChevronUpIcon className="w-5 h-5 transition-transform duration-300" />
-                    ) : (
-                      <ChevronDownIcon className="w-5 h-5 transition-transform duration-300" />
-                    )}
-                  </div>
-                </button>
-                
-                <div className={`overflow-hidden transition-all duration-500 ease-out ${
-                  openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                }`}>
-                  <div className="px-8 pb-6">
-                    <div className="w-12 h-0.5 bg-gradient-to-r from-[#E24E28] to-[#E86F50] mb-4 rounded-full"></div>
-                    <p className="text-gray-600 leading-relaxed text-base">
-                      {faq.answer}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          
-          {/* CTA Section */}
-          <div className="text-center mt-16">
-            <div className="bg-gradient-to-r from-gray-900 to-gray-800 rounded-3xl p-8 md:p-12 text-white">
-              <div className="max-w-2xl mx-auto">
-                <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                  Still have questions?
-                </h3>
-                <p className="text-gray-300 mb-8 text-lg">
-                  Our support team is here to help you get the most out of Sitebuilderz
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button className="group bg-white text-gray-900 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl">
-                    <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-                    Contact Support
-                  </button>
-                  <button className="group border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/10 transition-all duration-300 flex items-center justify-center gap-3 backdrop-blur-sm">
-                    <BookOpen className="w-5 h-5 group-hover:scale-110 transition-transform duration-300" />
-                    View Documentation
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <FAQs 
+          faqData={faqData}
+          title="Frequently Asked Questions"
+          subtitle="Everything you need to know about Sitebuilderz. Can't find the answer you're looking for? Please reach out to our friendly support team."
+          showSearch={false}
+          showCategories={false}
+          showCTA={true}
+        />
       </Container>
     </FullContainer>
   )
 }
 
-export default FAQs
+export default HomeFAQs

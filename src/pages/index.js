@@ -10,7 +10,7 @@ import CTA from "../../components/container/CTA";
 import ImageSlider from "../../components/ui/ImageSlider";
 import BoostVisibilityDominateGoogle from "../../components/container/Home/BoostVisibilityDominateGoogle";
 import ScaleAndCollaborate from "../../components/container/Home/ScaleAndCollaborate";
-import FAQs from "../../components/container/Home/FAQs";
+import HomeFAQs from "../../components/container/Home/FAQs";
 import Banner from "../../components/container/Home/Banner";
 import KeyFeatures from "../../components/container/Home/KeyFeatures";
 import TopSite from "../../components/container/Home/TopSite";
@@ -22,7 +22,7 @@ export default function Home() {
       <Banner />
       <KeyFeatures />
       <TopSite />
-      <FAQs />
+      <HomeFAQs />
       <Compinies />
       {/* <Hero /> */}
       {/* <OurProcess /> */}
