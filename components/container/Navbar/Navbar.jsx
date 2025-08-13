@@ -415,7 +415,7 @@
                             <Link href="https://sitebuilderz.com/" className='hidden xl:flex items-center text-base'>
                                 Login
                             </Link>
-                            <Link href="/" className='text-base border-b border-gray-500'>
+                            <Link href="/contact" className='text-base border-b border-gray-500'>
                                 Contact sales
                             </Link>
 
