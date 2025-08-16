@@ -401,8 +401,8 @@
                                 <Link href="/pricing" className='flex items-center'>
                                     Pricing
                                 </Link>
-                                <Link href="/templates" className='flex items-center'>
-                                    Templates
+                                <Link href="/features" className='flex items-center'>
+                                    Features    
                                 </Link>
                                 <Link href="/about-us" className='flex items-center'>
                                     About us
